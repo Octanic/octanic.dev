@@ -3,13 +3,17 @@
         mainTitle:"OLÁ, EU SOU JOÃO LUIS",
         mainFrase1:"e eu",
         mainFrase2:"coisas.",
-        mainSkills:["desenvolvo","invento", "altero", "melhoro", "quebro", "conserto","automatizo","aprendo","ensino"]
+        mainSkills:["desenvolvo","invento", "altero", "melhoro", "quebro", "conserto","automatizo","aprendo","ensino"],
+        linkedinUrl:"https://www.linkedin.com/in/joaoluisbf/?locale=pt_BR",
+        resumeUrl:"resume.html?lang=pt",
     };
     const enDic = {
         mainTitle:"HI, I'M JOAO LUIS",
         mainFrase1:"and I",
         mainFrase2:"stuff.",
-        mainSkills:["develop","invent", "change", "improve", "break", "fix","automate","learn","teach"]
+        mainSkills:["develop","invent", "change", "improve", "break", "fix","automate","learn","teach"],
+        linkedinUrl:"https://www.linkedin.com/in/joaoluisbf/?locale=en_US",
+        resumeUrl:"resume.html?lang=en",
     }
 
     const urlParam = new URLSearchParams(window.location.search);
@@ -42,8 +46,9 @@
         document.getElementById("main-title").textContent=dic.mainTitle;
         document.getElementById("main-frase1").textContent=dic.mainFrase1;
         document.getElementById("main-frase2").textContent=dic.mainFrase2;
+        document.getElementById("urlLinkedin").setAttribute("href",dic.linkedinUrl);
+        document.getElementById("urlResume").setAttribute("href",dic.resumeUrl);
     }
-
     
     let i = 0;
     setScreen(mainDic);

@@ -1,47 +1,51 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <title>Octanic.dev</title>
+        <meta name="description" content="Página para suportar demais projetos de seu autor, João Luis, e também para mostrar seu currículo e redes sociais para quem interessar">
+        <meta name="keywords" content="João Luis,desenvolvimento,desenvolvedor,programação,.net,developer,resume,curriculum"> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;800;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/shared.css">
         <link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="css/carrousel.css">
     </head>
     <body>
+        <div id='language-switch'>
+            <img src='img/lang.svg' id='img-lang' width="100" >
+            <ul id='lang-items' class="hidden">
+                <li><a href='index.html'>Português</a></li>
+                <li><a href='index.html?lang=en'>English</a></li>
+            </ul>
+        </div>
         <div class='scene'>
-            <div class="carousel">
-                <div class="carousel-cell">
-                    <div class="bg"></div>
-                    <div class="content">
-                        <div class="box" >
-                            <div>
-                                <h1 id="main-title">OLÁ, EU SOU JOÃO LUIS</h1>
-                                <small>
-                                    <span id='main-frase1'> e eu </span> <span id='main-skill'></span><span class='blink'>_</span> <span id='main-frase2'> coisas</span>
-                                </small>
-                                <p>io io io</p>
-                            </div>
-                        </div>
-                    </div>  
-                    <div class="footer">
-                        <a target='_blank' href="https://www.linkedin.com/in/joaoluisbf/" title="LinkedIn">
-                            <img src="img/in.svg" alt="LinkedIn" width="50">
-                        </a>
-                        <a target='_blank' href="https://github.com/octanic" title="GitHub">
-                            <img src="img/git.svg" alt="Git" width="50">
-                        </a>
-                        <a target='_blank' href="http://octanic.visualstudio.com/" title="Visual Studio Online">
-                            <img src="img/vs.svg" alt="VisualStudio" width="50">
-                        </a>
+            <div class="bg"></div>
+            <div class="content">
+                <div class="box" >
+                    <div>
+                        <h1 id="main-title">OLÁ, EU SOU JOÃO LUIS</h1>
+                        <small>
+                            <span id='main-frase1'> e eu </span> <span id='main-skill'></span><span class='blink'>_</span> <span id='main-frase2'> coisas</span>
+                        </small>
                     </div>
                 </div>
-
-                <div class="carousel-cell">
-
-                </div>
-
+            </div>  
+            <div class="footer">
+                <a href="resume.html" id="urlResume" title="Curriculum">
+                    <img src="img/resume.png" alt="Curriculum" width='50'>
+                </a>
+                <a target='_blank' href="https://www.linkedin.com/in/joaoluisbf/" id='urlLinkedin' title="LinkedIn">
+                    <img src="img/in.svg" alt="LinkedIn" width="50">
+                </a>
+                <a target='_blank' href="https://github.com/octanic" title="Git Hub">
+                    <img src="img/git.svg" alt="Git" width="50">
+                </a>
+                <a target='_blank' href="http://octanic.visualstudio.com/" title="Visual Studio Online">
+                    <img src="img/vs.svg" alt="VisualStudio" width="50">
+                </a>
             </div>
             
-
         </div>
         <script src="js/index.js"></script>
+        <script src="js/shared.js"></script>
     </body>
 </html>

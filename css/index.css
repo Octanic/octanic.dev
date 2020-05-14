@@ -29,6 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-shadow: #CCC 1px 0 10px;
 }
 
 .box div {

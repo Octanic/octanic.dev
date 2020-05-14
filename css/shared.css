@@ -8,16 +8,15 @@ body {
     justify-content: center;
     position: fixed;
     bottom: 0;
-    height: 6vh;
+    height: 8vh;
     width: 100%;
     background-color: #111111;
     z-index: 9;
 }
 .footer img{
-    width: 4vh;
+    width: 5vh;
     padding: 1vh;
 }
-
 
 h1 {
     font-size: 2rem;
@@ -45,4 +44,50 @@ h1 {
     body{
         font-size: 30px;
     }
+}
+
+#language-switch{
+  position: absolute;
+  padding: 2vh;
+  z-index: 3;
+  right: 1vh;
+}
+
+#img-lang{
+  transition: all .8s ease-in-out;
+}
+#img-lang:hover{
+  transform: scale(2);
+}
+
+
+#language-switch>img{
+  width: 3vh;
+  cursor: pointer;
+}
+
+#language-switch ul{
+  list-style: none;
+  text-align: right;
+  animation: 1s fadein;
+}
+@keyframes fadein{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.hidden {
+  display: none;
+}
+
+#lang-items{
+  position: absolute;
+  right:1vh;
+  
+}
+
+#lang-items a{
+  color:#FFF;
+  text-decoration: none;
+  font-size: 20px;
 }
