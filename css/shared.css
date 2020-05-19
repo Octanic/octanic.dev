@@ -71,6 +71,10 @@ h1 {
   text-align: right;
   animation: 1s fadein;
 }
+
+#language-switch ul li a:hover{
+  color:#F4E409;
+}
 @keyframes fadein{
   from {opacity: 0;}
   to {opacity: 1;}
