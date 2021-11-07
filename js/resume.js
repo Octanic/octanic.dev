@@ -14,6 +14,25 @@ ptDic = {
             "diversas linhas de negócio, prezando pela qualidade e transparência",
     experience:[
         {
+            company: "Cognizant",
+            biz:"Serviços de TI",
+            photoUrl:"img/companies/cog.webp",
+            totalTime:"1 ano e 3 meses",
+            jobs:[
+                {
+                    start:"Ago/2020",
+                    end:"Out/2021",
+                    position:"Analista de suporte de aplicações",
+                    description:"Suporte de aplicações .NET<br>"+
+                                "- Suporte de API <br/>"+
+                                "- Compartilhamento de informações para troubleshooting com outros times<br>"+
+                                "- Documentação proativa e criação de sessões de KT com nossos clientes e outros times <br>" +
+                                "- Contatos com fornecedores para suporte em aplicações<br>"+ 
+                                "- Coordenação na investigação de problemas e mudanças."
+                }
+            ]
+        },
+        {
             company: "Grupo Intercâmbio Global",
             biz:"Turismo/Intercâmbio",
             photoUrl:"img/companies/itg.webp",
@@ -214,6 +233,10 @@ ptDic = {
         {
             name:"Japonês",
             level:"Básico"
+        },
+        {
+            name:"Espanhol",
+            level:"Intermediário"
         }
     ],
     goodToKnow:[
@@ -242,6 +265,25 @@ enDic={
             "Since 2007, developing professional and secure software to many businesses, "+
             "always looking after quality and transparency.",
     experience:[
+        {
+            company: "Cognizant",
+            biz:"IT Services",
+            photoUrl:"img/companies/cog.webp",
+            totalTime:"1 year e 3 months",
+            jobs:[
+                {
+                    start:"Aug/2020",
+                    end:"Oct/2021",
+                    position:"Application Support specialist",
+                    description:"- Application support on .NET applications<br>"+
+                                "- API support<br>"+
+                                "- Sharing troubleshooting information with other teams<br>"+
+                                "- Proactive documentation and knowledge transfer between our customers and our teams<br>"+
+                                "- Contact with vendor for application support<br>"+
+                                "- Problem investigation and changes coordination."
+                }
+            ]
+        },
         {
             company: "Grupo Intercâmbio Global",
             photoUrl:"img/companies/itg.webp",
@@ -444,6 +486,10 @@ enDic={
         {
             name:"Japanese",
             level:"Basic"
+        },
+        {
+            name:"Spanish",
+            level:"Intermediate"
         }
     ],
     goodToKnow:[
