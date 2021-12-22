@@ -9,9 +9,9 @@ ptDic = {
         t6:"Considerações Finais",
         t7:"",
     },
-    headline:"Bacharel em Engenharia da Computação<br><br>"+
+    headline:"<b>Bacharel em Engenharia da Computação</b>"+
             "Desde 2007, desenvolvendo softwares profissionais e seguros para as mais "+
-            "diversas linhas de negócio, prezando pela qualidade e transparência",
+            "diversas linhas de negócio, prezando pela qualidade e transparência. Veja mais em <a href='https://github.com/octanic' target='_blank' class='dc'>github.com/octanic</a>",
     experience:[
         {
             company: "Cognizant",
@@ -261,15 +261,15 @@ enDic={
         t6:"Final Points",
         t7:"",
     },
-    headline:"Bachelor in Computer Engineering<br><br>"+
+    headline:"<b>Bachelor in Computer Engineering</b>"+
             "Since 2007, developing professional and secure software to many businesses, "+
-            "always looking after quality and transparency.",
+            "always looking after quality and transparency. Check me out at <a href='https://github.com/octanic' target='_blank' class='dc'>github.com/octanic</a>",
     experience:[
         {
             company: "Cognizant",
             biz:"IT Services",
             photoUrl:"img/companies/cog.webp",
-            totalTime:"1 year e 3 months",
+            totalTime:"1 year 3 months",
             jobs:[
                 {
                     start:"Aug/2020",
@@ -336,7 +336,7 @@ enDic={
                     start:"May/2015",
                     end:"Nov/2015",
                     position:"Software Developer PL (Fixed Term Contract)",
-                    description:"Fixed term contract, allocated at the client, Nestlé Co.<br>" + 
+                    description:"Fixed term contract, allocated at the client, <b>Nestlé Co.</b><br>" + 
                     "- Development and maintenance of Client Management solutions."+
                     "- Conception, development, global deployment using SCCM Infrastructure and follow up with several locations in the world.<br>"+
                     "- Participation in project meetings;<br>"+

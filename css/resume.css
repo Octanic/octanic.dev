@@ -63,12 +63,6 @@ h3{
     padding-bottom: 2em;
     margin-bottom: 1em;
 }
-.item a{
-    color: #e8bf31;
-}
-.item a:visited{
-    color: #e8bf31;
-}
 
 section.languages {
     display: grid;
@@ -177,4 +171,8 @@ section.languages {
     .final {
         padding-bottom: 0;
     }
+}
+
+.dc {
+    display: contents;
 }
