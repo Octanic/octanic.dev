@@ -505,9 +505,7 @@ enDic={
     less: "See less -",
 }
 
-
-const urlParam = new URLSearchParams(window.location.search);
-var lang = urlParam.get("lang");
+var lang = readLanguage();
 var mainDic = {};
 switch(lang){
     case "en":mainDic=enDic;break;
@@ -515,9 +513,9 @@ switch(lang){
 }
 
 function loadTitles(){
-    document.getElementById("t1")?document.getElementById("t1").innerText=mainDic.titles.t1:0;
     document.getElementById("t2")?document.getElementById("t2").innerText=mainDic.titles.t2:0;
     document.getElementById("t3")?document.getElementById("t3").innerText=mainDic.titles.t3:0;
+    document.getElementById("t1")?document.getElementById("t1").innerText=mainDic.titles.t1:0;
     document.getElementById("t4")?document.getElementById("t4").innerText=mainDic.titles.t4:0;
     document.getElementById("t5")?document.getElementById("t5").innerText=mainDic.titles.t5:0;
     document.getElementById("t6")?document.getElementById("t6").innerText=mainDic.titles.t6:0;

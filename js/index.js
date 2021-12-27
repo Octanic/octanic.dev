@@ -16,8 +16,8 @@
         resumeUrl:"resume.html?lang=en",
     }
 
-    const urlParam = new URLSearchParams(window.location.search);
-    var lang = urlParam.get("lang");
+    var lang = readLanguage();
+
     switch(lang){
         case "en":mainDic=enDic;break;
         default:mainDic=ptDic;break;
