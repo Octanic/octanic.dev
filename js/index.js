@@ -5,15 +5,14 @@
         mainFrase2:"coisas.",
         mainSkills:["desenvolvo","invento", "altero", "melhoro", "quebro", "conserto","automatizo","aprendo","ensino"],
         linkedinUrl:"https://www.linkedin.com/in/joaoluisbf/?locale=pt_BR",
-        resumeUrl:"resume.html?lang=pt",
+        resumeUrl:"resume.html",
     };
     const enDic = {
         mainTitle:"HI, I'M JOAO LUIS",
         mainFrase1:"and I",
         mainFrase2:"stuff.",
         mainSkills:["develop","invent", "change", "improve", "break", "fix","automate","learn","teach"],
-        linkedinUrl:"https://www.linkedin.com/in/joaoluisbf/?locale=en_US",
-        resumeUrl:"resume.html?lang=en",
+        linkedinUrl:"https://www.linkedin.com/in/joaoluisbf/?locale=en_US"
     }
 
     var lang = readLanguage();
@@ -23,21 +22,21 @@
         default:mainDic=ptDic;break;
     }
     
-    function sleep(ms){
-        return new Promise(r=>window.setTimeout(r,ms));
+    async function sleep(ms){
+        return await new Promise(r=>window.setTimeout(r,ms));
     }
 
     async function typewriter(word,id){
         if (document.getElementById(id).textContent!==""){
             for(let i=word.length-1; i>=0;i--){
-                document.getElementById(id).textContent = document.getElementById(id).textContent.substr(i);
+                document.getElementById(id).textContent = document.getElementById(id).textContent.substring(i);
                 await sleep(50);
             }
         }
         document.getElementById(id).textContent="";
 
-        for(let i=0;i<word.length;i++){
-            document.getElementById(id).textContent+=word[i];
+        for(let i=0;i<=word.length;i++){
+            document.getElementById(id).textContent=word.substring(0,i);
             await sleep(100);
         }
     }
@@ -47,7 +46,6 @@
         document.getElementById("main-frase1").textContent=dic.mainFrase1;
         document.getElementById("main-frase2").textContent=dic.mainFrase2;
         document.getElementById("urlLinkedin").setAttribute("href",dic.linkedinUrl);
-        document.getElementById("urlResume").setAttribute("href",dic.resumeUrl);
     }
     
     let i = 0;
