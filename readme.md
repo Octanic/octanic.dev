@@ -12,7 +12,9 @@
 ~~because I was bored and really needed to create a website for me!~~ That's a way to try to check my basic skills out in order to advance with more advanced studies.
 
 ## What's Inside?
-At first glance, I have a very minimalistic home page, and then, my resume on another page.
+- I have a very minimalistic home page, 
+- My resume on another page (with a printable version)
+- **\*\*NEW\*\*** - A Showcase for some of my projects, either personal or freelance, or things I consider it was too nice to just let it here.
 
 ## What's next?
-It will be my website, after that, I think about making APIs and some other projects.
+Perhaps send it into a serverside thing, since doing localization by hand seems to be _busy work_. Or perhaps explore more for my showcase possibilities. Also it can be somewhere I can place some personal API or stuff like that.
