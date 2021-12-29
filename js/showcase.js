@@ -7,37 +7,37 @@
                 title:"ROYBOT",
                 image:"roybot.png",
                 description:"Automação de Royalties, para gestão, controle e envio de boletos, geração de CNAB e RPS."
-                ,url:"roybot.html"
+                ,url:"project.html?roybot"
             },
             {
                 title:"Portal Interteck Katal",
                 image:"katal.png",
                 description:"Portal institucional e com painel administrativo de gestão de conteúdo para a empresa de Biotecnologia Interteck Katal."
-                ,url:"katal.html"
+                ,url:"project.html?katal"
             },
             {
                 title:"Hipsta Adventures",
                 image:"hipsta.png",
                 description:"Jogo criado usando a biblioteca P5.js, durante o workshop Imersão GameDev, da Alura, que recebeu uma menção de honra pela equipe da Alura."
-                ,url:"hipsta.html"
+                ,url:"project.html?hipsta"
             },
             {
                 title:"Sabre SPL Interpreter",
                 image:"spl.svg",
                 description:"Automação de leitura, interpretação e registro automático de bilhetes de passagens aéreas produzidos pelo sistema Sabre."
-                ,url:"spl.html"
+                ,url:"project.html?spl"
             },
             {
                 title:"Pass Calculator",
                 image:"passcalc.png",
                 description:"Calculadora para compra de passes em pacotes do jogo Pokémon GO, feito em Blazor."
-                ,url:"passcalc.html"
+                ,url:"project.html?passcalc"
             },
             {
                 title:"EPG Manager",
                 image:"epg.png",
                 description:"Gerenciador de grades de programação com base no padrão a ser lido por um EPG (Electronic Programming Guide)"
-                ,url:"epgm.html"
+                ,url:"project.html?epgm"
             }
         ]
     };
@@ -49,37 +49,37 @@
                 title:"ROYBOT",
                 image:"roybot.png",
                 description:"Royalty automation, for management, control and sending bills, along with CNAB and RPS file generation."
-                ,url:"roybot.html"
+                ,url:"project.html?roybot"
             },
             {
                 title:"Portal Interteck Katal",
                 image:"katal.png",
                 description:"Company Portal with content management area for the Biotechnology company Interteck Katal."
-                ,url:"katal.html"
+                ,url:"project.html?katal"
             },
             {
                 title:"Hipsta Adventures",
                 image:"hipsta.png",
                 description:"Platform game made with P5.js library, on Imersão GameDev workshop, hosted by Alura. This game received honorable mentions from the team."
-                ,url:"hipsta.html"
+                ,url:"project.html?hipsta"
             },
             {
                 title:"Sabre SPL Interpreter",
                 image:"spl.svg",
                 description:"Automatic reading, interpreting, registration automation for flight tickets made on Sabre Global Distribution System."
-                ,url:"spl.html"
+                ,url:"project.html?spl"
             },
             {
                 title:"Pass Calculator",
                 image:"passcalc.png",
                 description:"Calculator to check the best value for raid pass bundles on Pokémon GO, made with Blazor."
-                ,url:"passcalc.html"
+                ,url:"project.html?passcalc"
             },
             {
                 title:"EPG Manager",
                 image:"epg.png",
                 description:"Manager for program schedules using the standards for reading on an EPG (Electronic Programming Guide)"
-                ,url:"epgm.html"
+                ,url:"project.html?epgm"
             }
         ]
     };
