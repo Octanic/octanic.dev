@@ -1,6 +1,6 @@
 (function(){
     const  ptDic = {
-        mainTitle:"OLÁ, EU SOU JOÃO LUIS",
+        mainTitle:"OLÁ, EU SOU OCTANIC",
         mainFrase1:"e eu",
         mainFrase2:"coisas.",
         mainSkills:["desenvolvo","invento", "altero", "melhoro", "quebro", "conserto","automatizo","aprendo","ensino"],
@@ -8,7 +8,7 @@
         resumeUrl:"resume.html",
     };
     const enDic = {
-        mainTitle:"HI, I'M JOAO LUIS",
+        mainTitle:"HI, I'M OCTANIC",
         mainFrase1:"and I",
         mainFrase2:"stuff.",
         mainSkills:["develop","invent", "change", "improve", "break", "fix","automate","learn","teach"],
