@@ -8,6 +8,10 @@
 - Only HTML, CSS and Vanilla JS
 - Must be responsive (at least it must be ok to see it on a smartphone or so)
 
+**It's online!** Thanks to Netlify for making this a breeze to configure everything and look it look like magic. [Click Here to go to octanic.dev](https://octanic.dev)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c236238-75bb-4b29-82aa-eb5006afe394/deploy-status)](https://app.netlify.com/sites/quirky-mayer-16634b/deploys)
+
 ## Why?
 ~~because I was bored and really needed to create a website for me!~~ That's a way to try to perform some skill check on the basics.
 
