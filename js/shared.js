@@ -26,8 +26,8 @@
 
     function readLanguage(){
         if(!localStorage){
-            console.log("Local storage not available. Opt out Portuguese");
-            return "pt";
+            console.log("Local storage not available. Opt out English");
+            return "en";
         }
         let l = localStorage.getItem("language");
         if (!l){
@@ -56,6 +56,7 @@
         ls[i].onclick = function(){
             if(!localStorage) {
                 alert("LocalStorage is missing.");
+                setLanguage("en");
             }
             else {
                 setLanguage(this.dataset.language);

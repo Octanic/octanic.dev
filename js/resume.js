@@ -23,12 +23,12 @@ ptDic = {
                     start:"Ago/2020",
                     end:"Out/2021",
                     position:"Analista de suporte de aplicações",
-                    description:"Suporte de aplicações .NET<br>"+
-                                "- Suporte de API <br/>"+
-                                "- Compartilhamento de informações para troubleshooting com outros times<br>"+
-                                "- Documentação proativa e criação de sessões de KT com nossos clientes e outros times <br>" +
+                    description:"- Suporte de aplicações .NET<br>"+
+                                "- Suporte de API com Postman<br/>"+
+                                "- Compartilhamento de informações para troubleshooting com outros times, com bancos de dados Oracle e MySQL<br>"+
+                                "- Documentação proativa e criação de sessões de KT com nossos clientes e outros times<br>" +
                                 "- Contatos com fornecedores para suporte em aplicações<br>"+ 
-                                "- Coordenação na investigação de problemas e mudanças."
+                                "- Coordenação na investigação de problemas e mudanças usando padrões ITIL."
                 }
             ]
         },
@@ -44,18 +44,20 @@ ptDic = {
                     position:"Gerente de sistemas",
                     description:"- Gestão de serviços de TI, e de equipe de desenvolvimento;<br>"+
                     "- Concepção, análise, dimensionamento e implementação de sistemas;<br>"+
-                    "- Gestão de projetos entre as divisões da empresa que envolvem tecnologia;<br>"+
-                    "- Desenvolvimento de automação para tarefas que consomem tempo, aumentando a produtividade em todas as áreas da empresa.<br>"+
-                    "- Suporte e manutenção a sistemas legados em PHP, bem como estudos de viabilidade para descontinuá-los."
+                    "- Gestão de projetos entre as divisões da empresa que envolvem tecnologia, usando ASP.NET MVC, MySQL, Grafana, IIS;<br>"+
+                    "- Desenvolvimento de automação para tarefas que consomem tempo, aumentando a produtividade em todas as áreas da empresa, usando PowerShell, e automações em .NET em Windows Server.<br>"+
+                    "- Suporte e manutenção a sistemas legados em PHP, bem como estudos de viabilidade para descontinuá-los.<br>"+
+                    "- Auxílio à equipe de Marketing com implementação de Google Analytics para obtenção de métricas, e contribuição para melhoria do SEO dos sites."
                 },
                 {
                     start:"Mar/2017",
                     end:"Dez/2018",
                     position:"Engenheiro de sistemas",
                     description:"- Concepção, análise, dimensionamento e implementação de sistemas;<br>"+
-                    "- Gestão de projetos entre as divisões da empresa que envolvem tecnologia;<br>"+
-                    "- Desenvolvimento de automação para tarefas que consomem tempo, aumentando a produtividade em todas as áreas da empresa.<br>"+
-                    "- Suporte e manutenção a sistemas legados em PHP, bem como estudos de viabilidade para descontinuá-los."
+                    "- Gestão de projetos entre as divisões da empresa que envolvem tecnologia, usando ASP.NET MVC, MySQL, Grafana, IIS;<br>"+
+                    "- Desenvolvimento de automação para tarefas que consomem tempo, aumentando a produtividade em todas as áreas da empresa, usando PowerShell, e automações em .NET em Windows Server.<br>"+
+                    "- Suporte e manutenção a sistemas legados em PHP, bem como estudos de viabilidade para descontinuá-los.<br>"+
+                    "- Auxílio à equipe de Marketing com implementação de Google Analytics para obtenção de métricas, e contribuição para melhoria do SEO dos sites."
                 }
             ]
         },
@@ -69,7 +71,11 @@ ptDic = {
                     start:"Jan/2016",
                     end:"Mar/2017",
                     position:"Analista Consultor de Sistemas",
-                    description:"Desenvolvimento, manutenção, implantação e suporte de sistemas de emissão, especificamente para sistemas de cotadores de ramos comerciais. Atuação com Confluence e JIRA, para documentações e acompanhamento de atividades; Implantação de rotinas de integração contínua através de SVN e Bamboo. Melhorias do sistema de gerenciamento interno da companhia, através de passagem de conhecimento, em conjunto com um grupo de trabalho."
+                    description:"- Desenvolvimento, manutenção, implantação e suporte de sistemas de emissão usando ASP.NET Web Forms com JavaScript, especificamente para sistemas de cotadores de ramos comerciais.<br>"+
+                    "- Manutenção de sistemas legados escritos em ASP Clássico; e auxílio para portar algumas funções para .NET, a fim de avançar com a eliminação de legado."+
+                    "- Atuação com Confluence e JIRA, para documentações e acompanhamento de atividades;<br>"+ 
+                    "- Implantação de rotinas de integração contínua através de SVN e Bamboo.<br>"+
+                    "- Melhorias do sistema de gerenciamento interno da companhia, através de passagem de conhecimento, em conjunto com um grupo de trabalho."
                 }
             ]
         },
@@ -83,9 +89,9 @@ ptDic = {
                     start:"Mai/2015",
                     end:"Nov/2015",
                     position:"Desenvolvedor de software PL (Projeto de Tempo Determinado)",
-                    description:"Projeto de tempo determinado, alocado no cliente, Nestlé Co.<br>" + 
-                    "Desenvolvimento e manutenção de soluções de client management.<br>"+
-                    "- Concepção, desenvolvimento, deployment global usando a infraestrutura de SCCM e follow up com regiões do mundo.<br>"+
+                    description:"Projeto de tempo determinado, alocado no cliente, <b>Nestlé Co.</b><br>" + 
+                    "- Desenvolvimento e manutenção de soluções de client management. usando .NET, PowerShell e automações em VBA.<br>"+
+                    "- Concepção, desenvolvimento, deployment global usando a infraestrutura de SCCM e follow up com diversas regiões do mundo.<br>"+
                     "- Participação em reuniões de projetos com multiplas zonas,<br>"+
                     "- Organização e administração de sessões de Knowledge Transfer das soluções.<br>"+
                     "- Produção de documentação técnica e para usuário."
@@ -110,8 +116,8 @@ ptDic = {
                     start:"Mar/2012",
                     end:"Jun/2014",
                     position:"Desenvolvedor",
-                    description:"- Desenvolvimento de software através de especificações e requisitos, auxílio para levantamento e elaboração desses requisitos<br>"+
-                    "- Implantação e homologação de sistema interno de aéreo, com integração para o e-Commerce da empresa;<br>"+
+                    description:"- Desenvolvimento de software através de especificações e requisitos, auxílio para levantamento e elaboração desses requisitos, com .NET e ASP.NET Web Forms, com SQL Server.<br>"+
+                    "- Implantação e homologação de sistema interno de aéreo, com integração de API para o e-Commerce da empresa;<br>"+
                     "- Desenvolvimento e implantação de fluxos de trabaho para o setor operacional<br>"+
                     "- Manutenção de rotinas e telas do ERP;<br>"+
                     "- Tunning de stored procedures do banco de dados;<br>"+
@@ -134,10 +140,10 @@ ptDic = {
                     position:"Analista Programador",
                     description:"- Desenvolvimento e integração de módulo da Nota Fiscal Eletrônica (federal, estadual e municipal) ao ERP<br>"+
                     "- Manutenção e criação de módulos nos sistemas utilizando Visual FoxPro 9 e C#<br>"+
-                    "- Implementação de novas tecnologias, envolvendo dispositivos<br>"+
+                    "- Pesquisa e implementação de novas tecnologias, envolvendo dispositivos<br>"+
                     "- Implementação da Carta de Correção Eletrônica (CC-e) em ERP<br>"+
                     "- Manutenção e desenvolvimento de Etiquetas Zebra e Allegro<br>"+
-                    "- Migração de módulos/sistemas em Visual FoxPro para VB.NET"
+                    "- Migração de módulos/sistemas em Visual FoxPro para VB.NET com WPF"
                 }
             ]
         },
@@ -276,11 +282,11 @@ enDic={
                     end:"Oct/2021",
                     position:"Application Support specialist",
                     description:"- Application support on .NET applications<br>"+
-                                "- API support<br>"+
-                                "- Sharing troubleshooting information with other teams<br>"+
+                                "- API support with postman<br>"+
+                                "- Sharing troubleshooting information with other teams, with Oracle and MySQL databases<br>"+
                                 "- Proactive documentation and knowledge transfer between our customers and our teams<br>"+
                                 "- Contact with vendor for application support<br>"+
-                                "- Problem investigation and changes coordination."
+                                "- Problem investigation and changes coordination using ITIL standards."
                 }
             ]
         },
@@ -296,9 +302,10 @@ enDic={
                     position:"Systems Manager",
                     description:"- IT Services and development team management<br>"+
                     "- Systems conception, analysis, dimensioning and implementation;<br>"+
-                    "- Project management between the company's divisions that required technology;<br>"+
-                    "- Automations development to time consuming tasks, raising productivity on every company's divisions.<br>"+
-                    "- Legacy systems support and maintenance in PHP, also working on their elimination."
+                    "- Project management between the company's divisions that required technology, using mostly ASP.NET MVC, MySQL, Grafana, IIS;<br>"+
+                    "- Automations development to time consuming tasks, raising productivity on every company's divisions, mostly using PowerShell and .NET Automations on Windows Server.<br>"+
+                    "- Legacy systems support and maintenance in PHP, also working on their decomissioning.<br>"+
+                    "- Help marketing team with Google Analytics implementation and metrics acquisition, contributing to SEO during development."
                 },
                 {
                     start:"Mar/2017",
@@ -308,7 +315,8 @@ enDic={
                     "- Systems conception, analysis, dimensioning and implementation;<br>"+
                     "- Project management between the company's divisions that required technology;<br>"+
                     "- Automations development to time consuming tasks, raising productivity on every company's divisions.<br>"+
-                    "- Legacy systems support and maintenance in PHP, also working on their elimination."
+                    "- Legacy systems support and maintenance in PHP, also working on their elimination.<br>"+
+                    "- Help marketing team with Google Analytics implementation and metrics acquisition, contributing to SEO during development."
                 }
             ]
         },
@@ -322,7 +330,11 @@ enDic={
                     start:"Jan/2016",
                     end:"Mar/2017",
                     position:"Systems Consultant Analyst",
-                    description:"Web development and maintenance of issuance systems, specifically in commercial lines quoting systems. Use of Confluence and JIRA, for documentation and task monitoring; Implementation of continuous integration with SVN and Bamboo. Improvements on the company’s management system, through knowledge transfer with a work group."
+                    description:"- Web development and maintenance of issuance systems using ASP.NET web forms along with JavaScript, specifically in commercial lines quoting systems.<br>"+
+                    "- Maintenance for legacy systems written in Classic ASP. Helped to port some functions to .NET, in order to advance with legacy decommissioning<br>"+
+                    "- Use of Confluence and JIRA, for documentation and task monitoring; <br>"+
+                    "- Implementation of continuous integration (CI/CD) with SVN and Bamboo. <br>"+
+                    "- Improvements on the company’s management system, through knowledge transfer with a work group."
                 }
             ]
         },
@@ -337,7 +349,7 @@ enDic={
                     end:"Nov/2015",
                     position:"Software Developer PL (Fixed Term Contract)",
                     description:"Fixed term contract, allocated at the client, <b>Nestlé Co.</b><br>" + 
-                    "- Development and maintenance of Client Management solutions."+
+                    "- Development and maintenance of Client Management solutions, using .NET, PowerShell and VBA Automations"+
                     "- Conception, development, global deployment using SCCM Infrastructure and follow up with several locations in the world.<br>"+
                     "- Participation in project meetings;<br>"+
                     "- Organization and administration of Knowledge Transfer sessions of the developed solutions;<br>"+
@@ -363,8 +375,8 @@ enDic={
                     start:"Mar/2012",
                     end:"Jun/2014",
                     position:"Developer",
-                    description:"- Software development through specifications and requirements, also helping on the process to generate them;<br>"+
-                    "- Implementation and certification of the internal flight system, with e-Commerce integration module;<br>"+
+                    description:"- Software development through specifications and requirements, also helping on the process to generate them, with .NET and ASP.NET web forms, with SQL databases;<br>"+
+                    "- Implementation and certification of the internal flight system, with e-Commerce integration module API;<br>"+
                     "- Development and implementation of workflows for the operational area<br>"+
                     "- ERP Maintenance;<br>"+
                     "- Database stored procedure tunning;<br>"+
@@ -387,10 +399,10 @@ enDic={
                     position:"Programming Analyst",
                     description:"- Development and integration to the ERP of Electronic Fiscal Invoices systems;<br>"+
                     "- ERP Module maintenance and creation using Visual Fox Pro 9 and C#;<br>"+
-                    "- New technology implementation, involving devices;<br>"+
+                    "- New technology research and implementation, involving devices;<br>"+
                     "- Implementation of Electronic Correction Letter (CC-e) to the ERP;<br>"+
                     "- Maintenance and implementation of Zebra and Allegro Labels;<br>"+
-                    "- Systems/modules migration from Visual FoxPro 9 to VB.NET;"
+                    "- Systems/modules migration from Visual FoxPro 9 to VB.NET using WPF;"
                 }
             ]
         },
