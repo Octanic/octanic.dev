@@ -66,8 +66,10 @@ body {
     position:relative;
     z-index: -1;
     transform: translate3d(-40px,20px,0);
-    animation: move .3s
+    animation: move .3s;
+    animation-timing-function: cubic-bezier(0.25, 0.1, 0, 1.26);
 }
+
 .showcase-item:hover>.overlay{
     display: inline-flex;
     animation: fadein .3s;
