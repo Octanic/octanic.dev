@@ -28,9 +28,9 @@ let lang = readLanguage();
 
     let mainDic = l==="pt"?ptDic:enDic;
 
-    document.getElementById("title").textContent = mainDic.title;
-
+    
     if (document.getElementById("name")){
+        document.getElementById("title").textContent = mainDic.title;
         document.getElementById("name").textContent = mainDic.name;
         document.getElementById("email").textContent = mainDic.email;
         document.getElementById("msg").textContent = mainDic.msg;
