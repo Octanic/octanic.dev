@@ -23,11 +23,7 @@ section{
     h1{
         color:#e8bf31;
     }
-    body {
-        /* background:#545454; */
-        background:#262626;
-        color:#FFF;
-    }
+    
     .placa{
         position: absolute;
         width: 100%;
@@ -136,6 +132,10 @@ section.languages {
 
 
 @media print {
+    body {
+        background:unset;
+        color:unset;
+    }
     .print-only{
         display: block;
     }

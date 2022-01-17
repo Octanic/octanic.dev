@@ -1,0 +1,156 @@
+.content{
+    margin-left: 5rem;
+
+}
+
+input, textarea {
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    margin-top:4px;
+    padding:4px;
+}
+
+button{
+    background-color: #f4e409;
+    width: 6rem;
+    height: 2rem;
+    border: 1px solid #daa520;
+    cursor: pointer;
+    font-size: 2vh;
+    color: #940000;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+button:hover{
+    background-color: goldenrod;
+    color: rgb(251, 240, 215);
+}
+
+.placa{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: #F4E409;
+    transform: skewY(-5deg);
+    z-index: -1;
+    top: -10%;
+}
+.title {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 4px black;
+}
+
+.boxContent{
+    display: flex;
+    flex-direction: column;    
+    
+}
+
+.error{
+    display: flex;
+    background-color: indianred;
+    max-width: 600px;
+    margin: 10px 0px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.hasError{
+    border: 1px solid red;
+    animation: eq linear .3s;
+}
+
+.success-block{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img {
+    width: 150px;    
+    margin-bottom: 10px;
+}
+.success-title{
+    font-size: 4vh;
+    font-weight: 900;
+}
+.success-text{
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+@keyframes eq{
+    0% {
+        margin-left:-10px;
+    }
+    50% {
+        margin-left:10px;
+
+    }
+    100%{
+        margin-left: unset;
+    }
+}
+@media (max-width: 992px) {
+    input{
+        height: 5vh;
+        font-size: larger;
+    }
+    textarea{
+        height:16vh;
+        font-size: larger;
+    }
+    .content{
+        margin-left: 1rem;
+        margin-bottom: 7vh;
+    }
+    input, textarea {
+        display: block;
+        max-width: unset;
+        width: 95%;        
+    }
+    small{
+        font-size: x-small;
+    }
+    button{
+        width: 98%;
+        height: 5vh;
+    }
+    .error{
+        height: 90px;
+        width: 95%;
+        max-width: unset;
+    }
+    .success-text{
+        font-size:35px;
+    }
+}
+
+@media (min-device-width:2560px){
+    input{
+        height: 4vh ;
+    }
+    textarea{
+        height: 16vh ;
+    }
+    input,textarea{
+        font-size: xx-large;
+    }
+    .error{        
+        max-width: unset;
+    }
+    button{
+        margin-bottom: 12vh;
+        width: 6vw;
+        height: 6vh;
+    }
+}

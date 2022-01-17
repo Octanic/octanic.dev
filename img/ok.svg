@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10.384" y="12.299" width="42.936" height="38.96" style="fill: rgb(255, 255, 255); paint-order: fill; fill-rule: nonzero;"/>
+  <path d="M 32 2 C 15.431 2 2 15.432 2 32 C 2 48.568 15.432 62 32 62 C 48.568 62 62 48.568 62 32 C 62 15.432 48.568 2 32 2 Z M 25.025 50 L 25.005 49.98 L 24.988 50 L 11 35.6 L 18.029 28.436 L 25.006 35.62 L 46.006 14.001 L 53 21.199 L 25.025 50 Z" fill="#43a047"/>
+</svg>
