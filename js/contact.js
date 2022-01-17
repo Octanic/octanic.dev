@@ -49,9 +49,9 @@ let lang = readLanguage();
 function checkData(){
     resetErrors();
 
-    let n = document.getElementsByName("name")[0].value.trim()??"";
-    let e = document.getElementsByName("email")[0].value.trim()??"";
-    let m = document.getElementsByName("message")[0].value.trim()??"";
+    let n = document.getElementsByName("name")[0].value.trim();
+    let e = document.getElementsByName("email")[0].value.trim();
+    let m = document.getElementsByName("message")[0].value.trim();
     let error = n==="" || e==="" || m==="";
     const rx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (e !== ""){

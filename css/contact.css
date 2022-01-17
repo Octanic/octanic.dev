@@ -62,6 +62,30 @@ button:hover{
     border: 1px solid red;
     animation: eq linear .3s;
 }
+
+.success-block{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img {
+    width: 150px;    
+    margin-bottom: 10px;
+}
+.success-title{
+    font-size: 4vh;
+    font-weight: 900;
+}
+.success-text{
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
 @keyframes eq{
     0% {
         margin-left:-10px;
