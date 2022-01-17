@@ -7,11 +7,11 @@ let lang = readLanguage();
         email: "E-mail",
         msg: "Mensagem",
         send: "Enviar",
-        text:"Tem algo pra me falar? Deixe sua mensagem aqui!<br>Mas não se esqueça de informar seu e-mail para que eu possa entrar em contato contigo.",
+        text:"Tem algo pra me falar? Deixe sua mensagem aqui!<br>Não se esqueça de informar seu e-mail para que eu possa responder.",
         disclaimer:"Seus dados estarão seguros. Eles são somente utilizados com o propósito de estabelecer um contato entre mim e você e nada mais.<br>Clicando em Enviar, você assume que entendeu isso.",
         error: "Por favor, preencha todos os campos antes de enviar a mensagem. Obrigado!",
         success: "Foi!",
-        successText: "Sua mensagem foi enviada pra mim. Eu vou ler sua mensagem o quanto antes. Obrigado!"
+        successText: "Sua mensagem foi enviada pra mim. Eu vou lê-la o quanto antes. Obrigado!"
     };
     enDic = {
         title: "Contact",

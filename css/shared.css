@@ -38,7 +38,7 @@ h1 {
 }
  
 @media (max-width: 1200px) {  
-  h1 {font-size:2.5rem;}  
+  h1 {font-size:5.5rem;}  
 }
 
 @media(min-width:2000px){

@@ -12,13 +12,15 @@ input, textarea {
 }
 
 button{
-    background-color:#F4E409;
-    width: 200px;
-    height: 60px;
-    border: 1px solid goldenrod;
+    background-color: #f4e409;
+    width: 6rem;
+    height: 2rem;
+    border: 1px solid #daa520;
     cursor: pointer;
-    font-size: 3vh;
-    color: rgb(148, 0, 0);
+    font-size: 2vh;
+    color: #940000;
+    border-radius: 15px;
+    margin-bottom: 50px;
 }
 button:hover{
     background-color: goldenrod;
@@ -100,21 +102,55 @@ button:hover{
 }
 @media (max-width: 992px) {
     input{
-        height: 8vh;
+        height: 5vh;
         font-size: larger;
     }
     textarea{
-        height:16vh
+        height:16vh;
+        font-size: larger;
     }
     .content{
         margin-left: 1rem;
-        margin-bottom: 5rem;
+        margin-bottom: 7vh;
     }
     input, textarea {
         display: block;
+        max-width: unset;
         width: 95%;        
+    }
+    small{
+        font-size: x-small;
+    }
+    button{
+        width: 98%;
+        height: 5vh;
     }
     .error{
         height: 90px;
+        width: 95%;
+        max-width: unset;
+    }
+    .success-text{
+        font-size:35px;
+    }
+}
+
+@media (min-device-width:2560px){
+    input{
+        height: 4vh ;
+    }
+    textarea{
+        height: 16vh ;
+    }
+    input,textarea{
+        font-size: xx-large;
+    }
+    .error{        
+        max-width: unset;
+    }
+    button{
+        margin-bottom: 12vh;
+        width: 6vw;
+        height: 6vh;
     }
 }
