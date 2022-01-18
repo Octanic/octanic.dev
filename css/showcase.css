@@ -10,14 +10,16 @@
 }
 
 .content {
-    margin-left: 5rem;
+    margin: 0 5rem;
     display: flex;
     flex-direction: column;
+
 }
 
 .showcase{
     margin-top:3em;
     margin-bottom: 3em;
+    text-align: center;
 }
 
 .showcase-item{
@@ -114,5 +116,10 @@
     }
     .placa{
         display: none;
+    }
+}
+@media (max-width:992px){
+    .showcase-item >img{
+        transform: translate(10%,25px);
     }
 }
