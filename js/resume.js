@@ -7,7 +7,7 @@ ptDic = {
         t4:"Certificações",
         t5:"Habilidades",
         t6:"Considerações Finais",
-        t7:"",
+        t7:"Objetivo",
     },
     headline:"<b>Bacharel em Engenharia da Computação</b>"+
             "Desde 2007, desenvolvendo softwares profissionais e seguros para as mais "+
@@ -256,6 +256,7 @@ ptDic = {
     ],
     plus: "Ver mais +",
     less: "Ver menos -",
+    objective: "Trabalhar na área de desenvolvimento de sistemas com a finalidade de contribuir com o avanço tecnológico da empresa, visando sempre gerar o melhor produto para o usuário final."
 };
 enDic={
     titles:{
@@ -265,7 +266,7 @@ enDic={
         t4:"Certificates",
         t5:"Skills",
         t6:"Final Points",
-        t7:"",
+        t7:"Objective",
     },
     headline:"<b>Bachelor in Computer Engineering</b>"+
             "Since 2007, developing professional and secure software to many businesses, "+
@@ -515,6 +516,7 @@ enDic={
     ],
     plus:"See more +",
     less: "See less -",
+    objective: "To work with system development team, aiming to contribute with the technology advance in the company, with the final objective to generate the best product for the end user."
 }
 
 var lang = readLanguage();
@@ -525,12 +527,9 @@ switch(lang){
 }
 
 function loadTitles(){
-    document.getElementById("t2")?document.getElementById("t2").innerText=mainDic.titles.t2:0;
-    document.getElementById("t3")?document.getElementById("t3").innerText=mainDic.titles.t3:0;
-    document.getElementById("t1")?document.getElementById("t1").innerText=mainDic.titles.t1:0;
-    document.getElementById("t4")?document.getElementById("t4").innerText=mainDic.titles.t4:0;
-    document.getElementById("t5")?document.getElementById("t5").innerText=mainDic.titles.t5:0;
-    document.getElementById("t6")?document.getElementById("t6").innerText=mainDic.titles.t6:0;
+    for(let i = 1;i<=7; i++){
+        document.getElementById(`t{i}`)?document.getElementById(`t{i}`).innerText=mainDic.titles[`t{i}`]:0;
+    }
 }
 
 function loadHeadline(){
@@ -646,8 +645,14 @@ function loadFinal(){
     }
     elm.appendChild(n);
 }
+function loadObjectives(){
+    var elm = document.querySelector(".objective");
+    if (!elm) return;
+    elm.innerText = mainDic.objective;
+}
 
 loadTitles();
+loadObjectives();
 loadHeadline();
 loadExperience();
 loadEducation();
