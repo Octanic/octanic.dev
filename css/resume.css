@@ -99,7 +99,6 @@ section.languages {
     display: flex!important;
 }
 
-
 @media (max-width: 992px){
     .hero h1, .hero h2 {
         display: block;
@@ -115,6 +114,7 @@ section.languages {
     section{
         font-size: 0.8em;
     }
+    
 }
 
 @media (max-device-width:425px){
@@ -159,17 +159,27 @@ section.languages {
     section{
         font-size: 9pt;
         width: 100%;
+        display: block;
     }
     .certificates .item{
         border-bottom: 0;
         margin-bottom: 0;
         padding-bottom: 0;
+        display: block;
     }
-    .experience .item:nth-child(4){
+    /* .experience .item:nth-child(4){
         display: none;
-    }
+    } */
     .final {
         padding-bottom: 0;
+    }
+    .pagebreak { page-break-before: always; }
+    .item{
+        display: block;
+    }
+
+    img{
+        display:none;
     }
 }
 

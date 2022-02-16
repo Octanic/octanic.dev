@@ -255,7 +255,7 @@ ptDic = {
     ],
     plus: "Ver mais +",
     less: "Ver menos -",
-    objective: "Trabalhar na área de desenvolvimento de sistemas com a finalidade de contribuir com o avanço tecnológico da empresa, visando sempre gerar o melhor produto para o usuário final."
+    objective: "Trabalhar na área de desenvolvimento de sistemas com a finalidade de contribuir com o avanço tecnológico da empresa, visando sempre gerar o melhor produto para o usuário final.",
 };
 enDic={
     titles:{
@@ -515,7 +515,7 @@ enDic={
     ],
     plus:"See more +",
     less: "See less -",
-    objective: "To work with system development team, aiming to contribute with the technology advance in the company, with the final objective to generate the best product for the end user."
+    objective: "To work with system development team, aiming to contribute with the technology advance in the company, with the final objective to generate the best product for the end user.",
 }
 
 var lang = readLanguage();
@@ -527,7 +527,7 @@ switch(lang){
 
 function loadTitles(){
     for(let i = 1;i<=7; i++){
-        document.getElementById(`t{i}`)?document.getElementById(`t{i}`).innerText=mainDic.titles[`t{i}`]:0;
+        document.getElementById("t"+i)?document.getElementById("t"+i).innerText=mainDic.titles["t"+i]:0;
     }
 }
 
@@ -536,7 +536,7 @@ function loadHeadline(){
 }
 
 function loadExperience(){
-    const EXP_PRINT_LIMIT=4;
+    const EXP_PRINT_LIMIT=7;
     var elm = document.querySelector(".experience");
     if (!elm) return;
     for(let i =0; i<mainDic.experience.length; i++){
@@ -658,6 +658,7 @@ loadEducation();
 loadCertificates();
 loadLanguages();
 loadFinal();
+
 
 
 function toggle(){
