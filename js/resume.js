@@ -1,4 +1,3 @@
-//todo:move it to a cdn?
 ptDic = {
     titles:{
         t1:"Experiência Profissional",
@@ -11,7 +10,7 @@ ptDic = {
     },
     headline:"<b>Bacharel em Engenharia da Computação</b>"+
             "Desde 2007, desenvolvendo softwares profissionais e seguros para as mais "+
-            "diversas linhas de negócio, prezando pela qualidade e transparência. Veja mais em <a href='https://github.com/octanic' target='_blank' class='dc'>github.com/octanic</a>",
+            "diversas linhas de negócio, prezando pela qualidade e transparência. Veja mais em <a href='https://octanic.dev' target='_blank' class='dc'>octanic.dev</a>",
     experience:[
         {
             company: "Cognizant",
@@ -270,7 +269,7 @@ enDic={
     },
     headline:"<b>Bachelor in Computer Engineering</b>"+
             "Since 2007, developing professional and secure software to many businesses, "+
-            "always looking after quality and transparency. Check me out at <a href='https://github.com/octanic' target='_blank' class='dc'>github.com/octanic</a>",
+            "always looking after quality and transparency. Check me out at <a href='https://octanic.dev' target='_blank' class='dc'>octanic.dev</a>",
     experience:[
         {
             company: "Cognizant",
