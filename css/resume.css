@@ -167,9 +167,7 @@ section.languages {
         padding-bottom: 0;
         display: block;
     }
-    /* .experience .item:nth-child(4){
-        display: none;
-    } */
+    
     .final {
         padding-bottom: 0;
     }
@@ -185,4 +183,33 @@ section.languages {
 
 .dc {
     display: contents;
+}
+
+.highlight{
+    position:relative;
+}
+.highlight::after{
+    content: "";
+    display: inline-block;
+    position:absolute;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+    top:0;
+    left: 0;
+    border-bottom: 2px solid #e8bf31;
+    animation-name: hl;
+    animation-duration: 1s;
+    animation-direction: normal;
+}
+
+@keyframes hl {
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+    100%{
+        width: 100%;
+        opacity: 1;
+    }
 }

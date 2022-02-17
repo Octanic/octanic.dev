@@ -22,12 +22,12 @@ ptDic = {
                     start:"Ago/2020",
                     end:"Out/2021",
                     position:"Analista de suporte de aplicações",
-                    description:"- Suporte de aplicações .NET<br>"+
-                                "- Suporte de API com Postman<br/>"+
-                                "- Compartilhamento de informações para troubleshooting com outros times, com bancos de dados Oracle e MySQL<br>"+
+                    description:"- Suporte de aplicações <h>.NET</h><br>"+
+                                "- Suporte de <h>API</h> com <h>Postman</h><br/>"+
+                                "- Compartilhamento de informações para troubleshooting com outros times, com bancos de dados <h>Oracle</h> e <h>MySQL</h><br>"+
                                 "- Documentação proativa e criação de sessões de KT com nossos clientes e outros times<br>" +
                                 "- Contatos com fornecedores para suporte em aplicações<br>"+ 
-                                "- Coordenação na investigação de problemas e mudanças usando padrões ITIL."
+                                "- Coordenação na investigação de problemas e mudanças usando padrões <h>ITIL</h>."
                 }
             ]
         },
@@ -43,20 +43,20 @@ ptDic = {
                     position:"Gerente de sistemas",
                     description:"- Gestão de serviços de TI, e de equipe de desenvolvimento;<br>"+
                     "- Concepção, análise, dimensionamento e implementação de sistemas;<br>"+
-                    "- Gestão de projetos entre as divisões da empresa que envolvem tecnologia, usando ASP.NET MVC, MySQL, Grafana, IIS;<br>"+
-                    "- Desenvolvimento de automação para tarefas que consomem tempo, aumentando a produtividade em todas as áreas da empresa, usando PowerShell, e automações em .NET em Windows Server.<br>"+
-                    "- Suporte e manutenção a sistemas legados em PHP, bem como estudos de viabilidade para descontinuá-los.<br>"+
-                    "- Auxílio à equipe de Marketing com implementação de Google Analytics para obtenção de métricas, e contribuição para melhoria do SEO dos sites."
+                    "- Gestão de projetos entre as divisões da empresa que envolvem tecnologia, usando <h>ASP.NET</h> <h>MVC</h>, <h>MySQL</h>, <h>Grafana</h>, <h>IIS</h>, <h>TFS</h> e <h>GIT</h>;<br>"+
+                    "- Desenvolvimento de automação para tarefas que consomem tempo, aumentando a produtividade em todas as áreas da empresa, usando <h>PowerShell</h>, e automações em <h>.NET</h> em <h>Windows</h> <h>Server</h>.<br>"+
+                    "- Suporte e manutenção a sistemas legados em <h>PHP</h>, bem como estudos de viabilidade para descontinuá-los.<br>"+
+                    "- Auxílio à equipe de Marketing com implementação de <h>Google</h> <h>Analytics</h> para obtenção de métricas, e contribuição para melhoria do SEO dos sites."
                 },
                 {
                     start:"Mar/2017",
                     end:"Dez/2018",
                     position:"Engenheiro de sistemas",
                     description:"- Concepção, análise, dimensionamento e implementação de sistemas;<br>"+
-                    "- Gestão de projetos entre as divisões da empresa que envolvem tecnologia, usando ASP.NET MVC, MySQL, Grafana, IIS;<br>"+
-                    "- Desenvolvimento de automação para tarefas que consomem tempo, aumentando a produtividade em todas as áreas da empresa, usando PowerShell, e automações em .NET em Windows Server.<br>"+
-                    "- Suporte e manutenção a sistemas legados em PHP, bem como estudos de viabilidade para descontinuá-los.<br>"+
-                    "- Auxílio à equipe de Marketing com implementação de Google Analytics para obtenção de métricas, e contribuição para melhoria do SEO dos sites."
+                    "- Gestão de projetos entre as divisões da empresa que envolvem tecnologia, usando <h>ASP.NET</h> <h>MVC</h>, <h>MySQL</h>, <h>Grafana</h>, <h>IIS</h>, <h>TFS</h> e <h>GIT</h>;<br>"+
+                    "- Desenvolvimento de automação para tarefas que consomem tempo, aumentando a produtividade em todas as áreas da empresa, usando <h>PowerShell</h>, e automações em <h>.NET</h> em <h>Windows Server</h>.<br>"+
+                    "- Suporte e manutenção a sistemas legados em <h>PHP</h>, bem como estudos de viabilidade para descontinuá-los.<br>"+
+                    "- Auxílio à equipe de Marketing com implementação de <h>Google</h> <h>Analytics</h> para obtenção de métricas, e contribuição para melhoria do <h>SEO</h> dos sites."
                 }
             ]
         },
@@ -70,10 +70,10 @@ ptDic = {
                     start:"Jan/2016",
                     end:"Mar/2017",
                     position:"Analista Consultor de Sistemas",
-                    description:"- Desenvolvimento, manutenção, implantação e suporte de sistemas de emissão usando ASP.NET Web Forms com JavaScript, especificamente para sistemas de cotadores de ramos comerciais.<br>"+
-                    "- Manutenção de sistemas legados escritos em ASP Clássico; e auxílio para portar algumas funções para .NET, a fim de avançar com a eliminação de legado."+
-                    "- Atuação com Confluence e JIRA, para documentações e acompanhamento de atividades;<br>"+ 
-                    "- Implantação de rotinas de integração contínua através de SVN e Bamboo.<br>"+
+                    description:"- Desenvolvimento, manutenção, implantação e suporte de sistemas de emissão usando <h>ASP.NET</h> <h>Web Forms</h> com <h>JavaScript</h>, <h>Oracle</h> e <h>WCF</h> especificamente para sistemas de cotadores de ramos comerciais.<br>"+
+                    "- Manutenção de sistemas legados escritos em <h>ASP</h> <h>Clássico</h>; e auxílio para portar algumas funções para <h>.NET</h>, a fim de avançar com a eliminação de legado."+
+                    "- Atuação com <h>Confluence</h> e <h>JIRA</h>, para documentações e acompanhamento de atividades;<br>"+ 
+                    "- Implantação de rotinas de integração contínua <h>(CI/CD)</h> através de <h>SVN</h> e <h>Bamboo</h>.<br>"+
                     "- Melhorias do sistema de gerenciamento interno da companhia, através de passagem de conhecimento, em conjunto com um grupo de trabalho."
                 }
             ]
@@ -89,8 +89,8 @@ ptDic = {
                     end:"Nov/2015",
                     position:"Desenvolvedor de software PL (Projeto de Tempo Determinado)",
                     description:"Projeto de tempo determinado, alocado no cliente, <b>Nestlé Co.</b><br>" + 
-                    "- Desenvolvimento e manutenção de soluções de client management. usando .NET, PowerShell e automações em VBA.<br>"+
-                    "- Concepção, desenvolvimento, deployment global usando a infraestrutura de SCCM e follow up com diversas regiões do mundo.<br>"+
+                    "- Desenvolvimento e manutenção de soluções de client management. usando <h>.NET</h>, <h>PowerShell</h> e automações em <h>VBA</h>.<br>"+
+                    "- Concepção, desenvolvimento, deployment global usando a infraestrutura de <h>SCCM</h> e follow up com diversas regiões do mundo.<br>"+
                     "- Participação em reuniões de projetos com multiplas zonas,<br>"+
                     "- Organização e administração de sessões de Knowledge Transfer das soluções.<br>"+
                     "- Produção de documentação técnica e para usuário."
@@ -115,11 +115,11 @@ ptDic = {
                     start:"Mar/2012",
                     end:"Jun/2014",
                     position:"Desenvolvedor",
-                    description:"- Desenvolvimento de software através de especificações e requisitos, auxílio para levantamento e elaboração desses requisitos, com .NET e ASP.NET Web Forms, com SQL Server.<br>"+
-                    "- Implantação e homologação de sistema interno de aéreo, com integração de API para o e-Commerce da empresa;<br>"+
+                    description:"- Desenvolvimento de software através de especificações e requisitos, auxílio para levantamento e elaboração desses requisitos, com <h>.NET</h> e <h>ASP.NET</h> <h>Web Forms<h>, com <h>SQL</h> <h>Server</h>.<br>"+
+                    "- Implantação e homologação de sistema interno de aéreo, com integração de <h>API</h> para o e-Commerce da empresa;<br>"+
                     "- Desenvolvimento e implantação de fluxos de trabaho para o setor operacional<br>"+
                     "- Manutenção de rotinas e telas do ERP;<br>"+
-                    "- Tunning de stored procedures do banco de dados;<br>"+
+                    "- Tunning de stored procedures do banco de dados em <h>SQL</h> <h>Server</h>;<br>"+
                     "- Criação de documentação e componentes para a equipe de desenvolvimento, e também para os usuários;<br>"+
                     "- Troubleshoot e acessoria para helpdesk e programadores para o desenvolvimento de sistemas;<br>"+
                     "- Definição de padrões e práticas de código junto aos desenvolvedores;<br>"+
@@ -138,11 +138,11 @@ ptDic = {
                     end:"Mar/2012",
                     position:"Analista Programador",
                     description:"- Desenvolvimento e integração de módulo da Nota Fiscal Eletrônica (federal, estadual e municipal) ao ERP<br>"+
-                    "- Manutenção e criação de módulos nos sistemas utilizando Visual FoxPro 9 e C#<br>"+
+                    "- Manutenção e criação de módulos nos sistemas utilizando <h>Visual FoxPro 9</h>, <h>C#</h> e <h>SQL Server</h><br>"+
                     "- Pesquisa e implementação de novas tecnologias, envolvendo dispositivos<br>"+
                     "- Implementação da Carta de Correção Eletrônica (CC-e) em ERP<br>"+
                     "- Manutenção e desenvolvimento de Etiquetas Zebra e Allegro<br>"+
-                    "- Migração de módulos/sistemas em Visual FoxPro para VB.NET com WPF"
+                    "- Migração de módulos/sistemas em <h>Visual FoxPro</h> para <h>VB.NET</h> com <h>WPF</h>"
                 }
             ]
         },
@@ -156,10 +156,10 @@ ptDic = {
                     start:"Abr/2008",
                     end:"Fev/2009",
                     position:"Programador Jr.",
-                    description:"Desenvolvimento de aplicações de PDV, como:<br>"+
+                    description:"Desenvolvimento de aplicações de PDV em <h>.NET</h> e <h>SQL Server</h>, como:<br>"+
                                 "- Totens para apresentação de produtos e consulta de preços<br>"+
                                 "- Frente de caixa, com balança, caixa, maquineta de cartão integrada e homologada<br>"+
-                                "- Força de vendas mobile usando .NET Compact Framework, integrando com impressora bluetooth"
+                                "- Força de vendas mobile usando <h>.NET Compact Framework</h>, integrando com impressora bluetooth"
                 }
             ]
         },
@@ -173,7 +173,7 @@ ptDic = {
                     start:"Jul/2007",
                     end:"Jan/2008",
                     position:"Programador Trainee (estágio técnico)",
-                    description:"Desenvolvimento de sistemas de apontamento de horas, automações e risk assessment, usando VBA, Excel e Access"
+                    description:"Desenvolvimento de sistemas de apontamento de horas, automações e risk assessment, usando <h>VBA</h>, <h>Excel</h> e <h>Access</h>"
                 }
             ]
         }, 
@@ -281,12 +281,12 @@ enDic={
                     start:"Aug/2020",
                     end:"Oct/2021",
                     position:"Application Support specialist",
-                    description:"- Application support on .NET applications<br>"+
-                                "- API support with postman<br>"+
-                                "- Sharing troubleshooting information with other teams, with Oracle and MySQL databases<br>"+
+                    description:"- Application support on <h>.NET</h> applications<br>"+
+                                "- <h>API</h> support with <h>postman</h><br>"+
+                                "- Sharing troubleshooting information with other teams, with <h>Oracle</h> and <h>MySQL</h> databases<br>"+
                                 "- Proactive documentation and knowledge transfer between our customers and our teams<br>"+
                                 "- Contact with vendor for application support<br>"+
-                                "- Problem investigation and changes coordination using ITIL standards."
+                                "- Problem investigation and changes coordination using <h>ITIL</h> standards."
                 }
             ]
         },
@@ -302,10 +302,10 @@ enDic={
                     position:"Systems Manager",
                     description:"- IT Services and development team management<br>"+
                     "- Systems conception, analysis, dimensioning and implementation;<br>"+
-                    "- Project management between the company's divisions that required technology, using mostly ASP.NET MVC, MySQL, Grafana, IIS;<br>"+
-                    "- Automations development to time consuming tasks, raising productivity on every company's divisions, mostly using PowerShell and .NET Automations on Windows Server.<br>"+
-                    "- Legacy systems support and maintenance in PHP, also working on their decomissioning.<br>"+
-                    "- Help marketing team with Google Analytics implementation and metrics acquisition, contributing to SEO during development."
+                    "- Project management between the company's divisions that required technology, using mostly <h>ASP.NET</h> <h>MVC</h>, <h>MySQL</h>, <h>Grafana</h>, <h>IIS</h>, <h>TFS</h> and <h>GIT</h>;<br>"+
+                    "- Automations development to time consuming tasks, raising productivity on every company's divisions, mostly using <h>PowerShell</h> and <h>.NET</h> Automations on <h>Windows</h> <h>Server</h>.<br>"+
+                    "- Legacy systems support and maintenance in <h>PHP</h>, also working on their decomissioning.<br>"+
+                    "- Help marketing team with <h>Google</h> <h>Analytics</h> implementation and metrics acquisition, contributing to <h>SEO</h> during development."
                 },
                 {
                     start:"Mar/2017",
@@ -313,10 +313,10 @@ enDic={
                     position:"System Engineer",
                     description:
                     "- Systems conception, analysis, dimensioning and implementation;<br>"+
-                    "- Project management between the company's divisions that required technology;<br>"+
-                    "- Automations development to time consuming tasks, raising productivity on every company's divisions.<br>"+
-                    "- Legacy systems support and maintenance in PHP, also working on their elimination.<br>"+
-                    "- Help marketing team with Google Analytics implementation and metrics acquisition, contributing to SEO during development."
+                    "- Project management between the company's divisions that required technology, using mostly <h>ASP.NET</h> <h>MVC</h>, <h>MySQL</h>, <h>Grafana</h>, <h>IIS</h>, <h>TFS</h> and <h>GIT</h>;<br>"+
+                    "- Automations development to time consuming tasks, raising productivity on every company's divisions, mostly using <h>PowerShell</h> and <h>.NET</h> Automations on <h>Windows</h> <h>Server</h>.<br>"+
+                    "- Legacy systems support and maintenance in <h>PHP</h>, also working on their decomissioning.<br>"+
+                    "- Help marketing team with <h>Google</h> <h>Analytics</h> implementation and metrics acquisition, contributing to <h>SEO</h> during development."
                 }
             ]
         },
@@ -330,10 +330,10 @@ enDic={
                     start:"Jan/2016",
                     end:"Mar/2017",
                     position:"Systems Consultant Analyst",
-                    description:"- Web development and maintenance of issuance systems using ASP.NET web forms along with JavaScript, specifically in commercial lines quoting systems.<br>"+
-                    "- Maintenance for legacy systems written in Classic ASP. Helped to port some functions to .NET, in order to advance with legacy decommissioning<br>"+
-                    "- Use of Confluence and JIRA, for documentation and task monitoring; <br>"+
-                    "- Implementation of continuous integration (CI/CD) with SVN and Bamboo. <br>"+
+                    description:"- Web development and maintenance of issuance systems using <h>ASP.NET</h> <h>web forms</h> along with <h>JavaScript</h>, <h>Oracle</h> and <h>WCF</h>, specifically in commercial lines quoting systems.<br>"+
+                    "- Maintenance for legacy systems written in <h>Classic</h> <h>ASP</h>. Helped to port some functions to <h>.NET</h>, in order to advance with legacy decommissioning<br>"+
+                    "- Use of <h>Confluence</h> and <h>JIRA</h>, for documentation and task monitoring; <br>"+
+                    "- Implementation of continuous integration <h>(CI/CD)</h> with <h>SVN</h> and <h>Bamboo</h>. <br>"+
                     "- Improvements on the company’s management system, through knowledge transfer with a work group."
                 }
             ]
@@ -349,8 +349,8 @@ enDic={
                     end:"Nov/2015",
                     position:"Software Developer PL (Fixed Term Contract)",
                     description:"Fixed term contract, allocated at the client, <b>Nestlé Co.</b><br>" + 
-                    "- Development and maintenance of Client Management solutions, using .NET, PowerShell and VBA Automations"+
-                    "- Conception, development, global deployment using SCCM Infrastructure and follow up with several locations in the world.<br>"+
+                    "- Development and maintenance of Client Management solutions, using <h>.NET</h>, <h>PowerShell</h> and <h>VBA</h> Automations"+
+                    "- Conception, development, global deployment using <h>SCCM</h> Infrastructure and follow up with several locations in the world.<br>"+
                     "- Participation in project meetings;<br>"+
                     "- Organization and administration of Knowledge Transfer sessions of the developed solutions;<br>"+
                     "- Production of technical and user documentation.<br>"
@@ -375,11 +375,11 @@ enDic={
                     start:"Mar/2012",
                     end:"Jun/2014",
                     position:"Developer",
-                    description:"- Software development through specifications and requirements, also helping on the process to generate them, with .NET and ASP.NET web forms, with SQL databases;<br>"+
-                    "- Implementation and certification of the internal flight system, with e-Commerce integration module API;<br>"+
+                    description:"- Software development through specifications and requirements, also helping on the process to generate them, with <h>.NET</h> and <h>ASP.NET</h> <h>web forms</h>, with <h>SQL</h> databases;<br>"+
+                    "- Implementation and certification of the internal flight system, with e-Commerce integration module <h>API</h>;<br>"+
                     "- Development and implementation of workflows for the operational area<br>"+
                     "- ERP Maintenance;<br>"+
-                    "- Database stored procedure tunning;<br>"+
+                    "- Database stored procedure tunning for <h>SQL Server</h>;<br>"+
                     "- Technical and user documentation creation;<br>"+
                     "- Troubleshoot and policy advise with helpdesk and programmers;<br>"+
                     "- Setting standards and code practices with the developers;<br>"+
@@ -398,11 +398,11 @@ enDic={
                     end:"Mar/2012",
                     position:"Programming Analyst",
                     description:"- Development and integration to the ERP of Electronic Fiscal Invoices systems;<br>"+
-                    "- ERP Module maintenance and creation using Visual Fox Pro 9 and C#;<br>"+
+                    "- ERP Module maintenance and creation using <h>Visual</h> <h>Fox</h> <h>Pro</h> <h>9</h>, <h>C#</h> and <h>SQL Server</h>;<br>"+
                     "- New technology research and implementation, involving devices;<br>"+
                     "- Implementation of Electronic Correction Letter (CC-e) to the ERP;<br>"+
                     "- Maintenance and implementation of Zebra and Allegro Labels;<br>"+
-                    "- Systems/modules migration from Visual FoxPro 9 to VB.NET using WPF;"
+                    "- Systems/modules migration from <h>Visual FoxPro 9</h> to <h>VB.NET</h> using <h>WPF</h>;"
                 }
             ]
         },
@@ -416,10 +416,10 @@ enDic={
                     start:"Apr/2008",
                     end:"Feb/2009",
                     position:"Jr. Programmer",
-                    description:"Development of POS applications such as:<br>"+
+                    description:"Development of POS applications in <h>.NET</h> and <h>SQL</h> <h>Server</h> such as:<br>"+
                                 "- Product presenter/price check terminal;<br>"+
                                 "- Front of store, with certified and integrated scale, credit/debit card reader, cash register;<br>"+
-                                "- Sales force mobile application using .NET Compact Framework, with an integrated bluetooth printer."
+                                "- Sales force mobile application using <h>.NET</h> <h>Compact</h> <h>Framework</h>, with an integrated bluetooth printer."
                 }
             ]
         },
@@ -433,7 +433,7 @@ enDic={
                     start:"Jul/2007",
                     end:"Jan/2008",
                     position:"Trainee programmer",
-                    description:"Development of applications for timesheet management, automations and risk assessment, using VBA with Excel and Access"
+                    description:"Development of applications for timesheet management, automations and risk assessment, using <h>VBA</h> with <h>Excel</h> and <h>Access</h>"
                 }
             ]
         }, 
@@ -676,4 +676,34 @@ function toggle(){
         elm[i].classList.toggle("item-hidden");
         elm[i].classList.toggle("show");
     }
+}
+
+const observer = new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{
+        const h = entry.target;
+
+        if (h){
+            
+            if (entry.isIntersecting){
+                h.classList.add("highlight");
+            }
+            else{
+                h.classList.remove("highlight");
+            }
+            
+            
+        }
+    });
+
+});
+const tagH = document.getElementsByTagName("h");
+
+for(let i = 0;i<tagH.length;i++)
+{
+    const v = tagH[i];
+    if (v)
+    {
+        observer.observe(v);
+    }
+
 }
