@@ -7,6 +7,7 @@ ptDic = {
         t5:"Habilidades",
         t6:"Considerações Finais",
         t7:"Objetivo",
+        t8:"Freelances"
     },
     headline:"<b>Bacharel em Engenharia da Computação</b>"+
             "Desde 2007, desenvolvendo softwares profissionais e seguros para as mais "+
@@ -256,6 +257,23 @@ ptDic = {
     plus: "Ver mais +",
     less: "Ver menos -",
     objective: "Trabalhar na área de desenvolvimento de sistemas com a finalidade de contribuir com o avanço tecnológico da empresa, visando sempre gerar o melhor produto para o usuário final.",
+    freelaText: "Alguns de meus trabalhos que prestei na modalidade freelance para parceiros. Visite meu <a href='/showcase'>Showcase</a> para ver outros projetos",
+    freelances:[
+        {
+            name:"Roybot",
+            description:"Automação de cálculo de cobrança de Royalties e disparo de boletos registrados. A finalidade da automação foi para eliminar a possibilidade de erros de envio, e encurtar o tempo de compilação do conteúdo e geração do material de cobrança.",
+            showcaseUrl:"/showcase/project.html?roybot",
+            technologies:[".NET Core", "WPF", "NPOI", "C#", "SQLite", "Dapper", "BoletoCore.NET"],
+            hoursSpent:"60"
+        },
+        {
+            name:"Interteck Katal",
+            description:"Portal institucional da empresa com controle de conteúdo e contatos feitos no site. A proposta era ter uma solução tailor made com a finalidade de revitalizar o site e simplificar a edição de conteúdo.",
+            showcaseUrl:"/showcase/project.html?katal",
+            technologies:[".NET Core", "ASP.NET Core", "CSS", "HTML", "C#", "JavaScript", "MySQL", "EF Core"],
+            hoursSpent:"70"
+        },
+    ]
 };
 enDic={
     titles:{
@@ -266,6 +284,7 @@ enDic={
         t5:"Skills",
         t6:"Final Points",
         t7:"Objective",
+        t8:"Freelances"
     },
     headline:"<b>Bachelor in Computer Engineering</b>"+
             "Since 2007, developing professional and secure software to many businesses, "+
@@ -516,6 +535,23 @@ enDic={
     plus:"See more +",
     less: "See less -",
     objective: "To work with system development team, aiming to contribute with the technology advance in the company, with the final objective to generate the best product for the end user.",
+    freelaText: "Some of my work that I did as a freelancer to partners. Please visit my <a href='/showcase'>Showcase</a> for more information.",
+    freelances:[
+        {
+            name:"Roybot",
+            description:"Automation for Royalties charging calculation and to send registered bills. The purpose of this tool was to eliminate the possibility of sending in charging mistakes and to shorten the content compilation and generation time used to charge the customers.",
+            showcaseUrl:"/showcase/project.html?roybot",
+            technologies:[".NET Core", "WPF", "NPOI", "C#", "SQLite", "Dapper", "BoletoCore.NET"],
+            hoursSpent:"60"
+        },
+        {
+            name:"Interteck Katal",
+            description:"Institutional Portal of the company with content management and contacts done within the website. The purpose was to have a tailor made solution aiming to overhaul the website and simplify content management.",
+            showcaseUrl:"/showcase/project.html?katal",
+            technologies:[".NET Core", "ASP.NET Core", "CSS", "HTML", "C#", "JavaScript", "MySQL", "EF Core"],
+            hoursSpent:"70"
+        },
+    ]
 }
 
 var lang = readLanguage();
@@ -526,7 +562,7 @@ switch(lang){
 }
 
 function loadTitles(){
-    for(let i = 1;i<=7; i++){
+    for(let i = 1;i<=8; i++){
         document.getElementById("t"+i)?document.getElementById("t"+i).innerText=mainDic.titles["t"+i]:0;
     }
 }
@@ -650,6 +686,24 @@ function loadObjectives(){
     elm.innerText = mainDic.objective;
 }
 
+function loadFreelance(){
+    let elm = document.querySelector(".freelance");
+    if (!elm) return;
+    elm.innerHTML+="<p>"+mainDic.freelaText+"</p>";
+    for(let i=0;i<mainDic.freelances.length;i++){
+        elm.innerHTML+=renderFreelance(mainDic.freelances[i]);
+    }
+}
+function renderFreelance(freelance){
+    let elm="<div class='freela-item'>";
+    elm+="<h3><a href='"+freelance.showcaseUrl+"'>"+freelance.name+"</a></h3>";
+    elm+="<small>"+freelance.hoursSpent+"hrs | <b>Skills:</b> <span class='skill'>"+ freelance.technologies.join(", ") +"</span></small>";
+    elm+="<p>"+freelance.description+"</p>";
+    elm+="</div>";
+
+    return elm;
+}
+
 loadTitles();
 loadObjectives();
 loadHeadline();
@@ -658,7 +712,7 @@ loadEducation();
 loadCertificates();
 loadLanguages();
 loadFinal();
-
+loadFreelance();
 
 
 function toggle(){
