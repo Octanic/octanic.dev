@@ -100,6 +100,9 @@ section.languages {
 }
 
 @media (max-width: 992px){
+    h1{
+        font-size: 2.8em;
+    }
     .hero h1, .hero h2 {
         display: block;
         float: left;
