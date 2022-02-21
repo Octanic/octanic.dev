@@ -264,14 +264,14 @@ ptDic = {
             description:"Automação de cálculo de cobrança de Royalties e disparo de boletos registrados. A finalidade da automação foi para eliminar a possibilidade de erros de envio, e encurtar o tempo de compilação do conteúdo e geração do material de cobrança.",
             showcaseUrl:"/showcase/project.html?roybot",
             technologies:[".NET Core", "WPF", "NPOI", "C#", "SQLite", "Dapper", "BoletoCore.NET"],
-            hoursSpent:"60"
+            hoursSpent:"~60"
         },
         {
             name:"Interteck Katal",
             description:"Portal institucional da empresa com controle de conteúdo e contatos feitos no site. A proposta era ter uma solução tailor made com a finalidade de revitalizar o site e simplificar a edição de conteúdo.",
             showcaseUrl:"/showcase/project.html?katal",
             technologies:[".NET Core", "ASP.NET Core", "CSS", "HTML", "C#", "JavaScript", "MySQL", "EF Core"],
-            hoursSpent:"70"
+            hoursSpent:"~70"
         },
     ]
 };
