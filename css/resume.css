@@ -75,12 +75,12 @@ section.languages {
 }
 
 .item-opt{
-    transition: opacity .3s, height 3s ;
+    transition: opacity .3s;
 }
 
 .item-hidden{
     opacity: 0;
-    height: 0;
+    display: none;
 }
 
 .plusButton button{
