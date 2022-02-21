@@ -19,7 +19,7 @@
 - I have a very minimalistic home page, 
 - My resume on another page (with a printable version)
 - A Showcase for some of my projects, either personal or freelance, or things I consider it was too nice to just let it here.
-- **\*\*NEW\*\*** Contact form - people can now reach me out using my website. This is better than using LinkedIN or GitHub IMO.
+- Contact form - people can now reach me out using my website. This is better than using LinkedIN or GitHub IMO.
 
 ## What's next?
 - Perhaps make it more server sided, since doing localization by hand seems to be _busy work_. 
