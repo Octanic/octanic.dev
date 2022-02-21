@@ -62,7 +62,7 @@ h3{
 
 section.languages {
     display: grid;
-    grid: 50px / 1fr 1fr 1fr;
+    grid: 70px / 1fr 1fr ;
     align-content: center;
 }
 .languages .item {
@@ -114,20 +114,26 @@ section.languages {
     section{
         font-size: 0.8em;
     }
-    
+    section.languages {
+        font-size: larger;
+    }
 }
 
 @media (max-device-width:425px){
     .resume-wrapper img,.m1{
         display: none;
     }
-    
+    section.languages {
+        grid: 120px / 1fr;
+        font-size: larger;
+    }
 }
 
 @media (min-device-width:2560px){
     section {
         width: 1600px;
     }
+    
 }
 
 
