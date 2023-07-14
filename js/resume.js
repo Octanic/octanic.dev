@@ -14,6 +14,25 @@ ptDic = {
             "diversas linhas de negócio, prezando pela qualidade e transparência. Veja mais em <a href='https://octanic.dev' target='_blank' class='dc'>octanic.dev</a>",
     experience:[
         {
+            company: "Agrotools",
+            biz: "Agronegócio",
+            photoUrl: "img/companies/agt.webp",
+            totalTime: "Atualmente",
+            jobs: [
+                {
+                    start: "Mar/2022",
+                    end: "atualmente",
+                    position: "Desenvolvedor de Software Senior Fullstack",
+                    description: "Responsável pelo desenvolvimento em todas as partes do ciclo de vida de uma aplicação, em relação a ESG.<br>"+
+                                "- Atuando em desenvolvimento em <h>.NET Framework</h>, <h>.NET Core</h>, <h>Javascript</h>;<br>"+
+                                "- Criação e manutenção de <h>APIs</h>;<br>" +
+                                "- Ajustes e definições de pipelines em <h>Microsoft Azure DevOps</h>;<br>"+
+                                "- Criação e manutenção de rotinas com <h>Azure LogicApps</h>;<br>"+
+                                "- Assistência para a equipe de desenvolvimento, seja assessoria técnica ou através de revisão de código"
+                }
+            ]
+        },
+        {
             company: "Cognizant",
             biz:"Serviços de TI",
             photoUrl:"img/companies/cog.webp",
@@ -290,6 +309,25 @@ enDic={
             "Since 2007, developing professional and secure software to many businesses, "+
             "always looking after quality and transparency. Check me out at <a href='https://octanic.dev' target='_blank' class='dc'>octanic.dev</a>",
     experience:[
+        {
+            company: "Agrotools",
+            biz: "Agribusiness",
+            photoUrl: "img/companies/agt.webp",
+            totalTime: "Currently",
+            jobs: [
+                {
+                    start: "Mar/2022",
+                    end: "currently",
+                    position: "Fullstack Senior Software Developer",
+                    description: "Responsible for development in all parts of an application's lifecycle, related to ESG.<br>"+
+                                "- Working in <h>.NET Framework</h>, <h>.NET Core</h>, <h>Javascript</h> development;<br> "+
+                                "- Creating and maintaining <h>APIs</h>;<br>" +
+                                "- Adjustments and definitions of pipelines in <h>Microsoft Azure DevOps</h>;<br>"+
+                                "- Creating and Maintaining Routines with <h>Azure LogicApps</h>;<br>"+
+                                "- Assistance to the development team, whether technical advice or through code review"
+                }
+            ]
+        },
         {
             company: "Cognizant",
             biz:"IT Services",
