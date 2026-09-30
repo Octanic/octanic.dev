@@ -9,19 +9,29 @@ ptDic = {
         t7:"Objetivo",
         t8:"Freelances"
     },
-    headline:"<b>Bacharel em Engenharia da Computação</b>"+
-            "Desde 2007, desenvolvendo softwares profissionais e seguros para as mais "+
-            "diversas linhas de negócio, prezando pela qualidade e transparência. Veja mais em <a href='https://octanic.dev' target='_blank' class='dc'>octanic.dev</a>",
+    headline:"<b>Tech Lead | Engenheiro da Computação</b>"+
+            "Desde 2007 desenvolvendo software para as mais diversas linhas de negócio. Hoje, lidero times .NET e "+
+            "aplico IA à engenharia de software, com foco em Spec-Driven Development (SDD). Veja mais em <a href='https://octanic.dev' target='_blank' class='dc'>octanic.dev</a>",
     experience:[
         {
             company: "Agrotools",
             biz: "Agronegócio",
             photoUrl: "img/companies/agt.webp",
-            totalTime: "Atualmente",
+            totalTime: "desde Mar/2022",
             jobs: [
                 {
-                    start: "Mar/2022",
+                    start: "Ago/2025",
                     end: "atualmente",
+                    position: "Tech Lead",
+                    description: "Tech Lead de um squad de 5 desenvolvedores e ponto focal técnico do domínio socioambiental e de elegibilidade, uma das principais linhas de produto da empresa, atuando junto a diversos times.<br>"+
+                                "- Pilotei e implantei um processo de <h>Spec-Driven Development (SDD)</h> com IA, baseado no <h>BMAD Method</h>, hoje adotado por 5 times e em vias de se tornar o padrão da empresa;<br>"+
+                                "- Redução significativa de cycle time e lead time com práticas de desenvolvimento assistido por IA, com entregas consistentes com o planejado;<br>"+
+                                "- Controle documental rígido e papéis bem definidos nas iniciativas, com agentes de IA (<h>Claude</h>, <h>GitHub Copilot</h>, <h>Cursor</h>);<br>"+
+                                "- Liderança e direcionamento técnico e revisão de código em serviços <h>.NET</h> / <h>C#</h>, <h>ASP.NET Core</h>, <h>Microsoft Azure</h>, <h>PostgreSQL</h> / <h>PostGIS</h>."
+                },
+                {
+                    start: "Mar/2022",
+                    end: "Jul/2025",
                     position: "Desenvolvedor de Software Senior Fullstack",
                     description: "Responsável pelo desenvolvimento em todas as partes do ciclo de vida de uma aplicação, em relação a ESG.<br>"+
                                 "- Atuando em desenvolvimento em <h>.NET Framework</h>, <h>.NET Core</h>, <h>Javascript</h>;<br>"+
@@ -118,7 +128,7 @@ ptDic = {
             ]
         },
         {
-            company:"STB Student Traveu Bureau",
+            company:"STB Student Travel Bureau",
             photoUrl:"img/companies/stb.webp",
             biz:"Turismo/Intercâmbio",
             totalTime:"3 anos",
@@ -135,11 +145,11 @@ ptDic = {
                     start:"Mar/2012",
                     end:"Jun/2014",
                     position:"Desenvolvedor",
-                    description:"- Desenvolvimento de software através de especificações e requisitos, auxílio para levantamento e elaboração desses requisitos, com <h>.NET</h> e <h>ASP.NET</h> <h>Web Forms<h>, com <h>SQL</h> <h>Server</h>.<br>"+
+                    description:"- Desenvolvimento de software através de especificações e requisitos, auxílio para levantamento e elaboração desses requisitos, com <h>.NET</h> e <h>ASP.NET</h> <h>Web Forms</h>, com <h>SQL</h> <h>Server</h>.<br>"+
                     "- Implantação e homologação de sistema interno de aéreo, com integração de <h>API</h> para o e-Commerce da empresa;<br>"+
                     "- Desenvolvimento e implantação de fluxos de trabaho para o setor operacional<br>"+
                     "- Manutenção de rotinas e telas do ERP;<br>"+
-                    "- Tunning de stored procedures do banco de dados em <h>SQL</h> <h>Server</h>;<br>"+
+                    "- Tuning de stored procedures do banco de dados em <h>SQL</h> <h>Server</h>;<br>"+
                     "- Criação de documentação e componentes para a equipe de desenvolvimento, e também para os usuários;<br>"+
                     "- Troubleshoot e acessoria para helpdesk e programadores para o desenvolvimento de sistemas;<br>"+
                     "- Definição de padrões e práticas de código junto aos desenvolvedores;<br>"+
@@ -265,8 +275,6 @@ ptDic = {
         }
     ],
     goodToKnow:[
-        "Solteiro, não fumante",
-        "Disponibilidade para viagens",
         "Já participei de grupos de brigada de incêndio e treinamentos de segurança no trabalho",
         "Dava aulas particulares de informática para pessoas da terceira idade, ensinando meus alunos a poder desfrutar de seus hobbies e suprir suas necessidades através da informática",
         "Gosto de trabalho em equipe",
@@ -275,7 +283,7 @@ ptDic = {
     ],
     plus: "Ver mais +",
     less: "Ver menos -",
-    objective: "Trabalhar na área de desenvolvimento de sistemas com a finalidade de contribuir com o avanço tecnológico da empresa, visando sempre gerar o melhor produto para o usuário final.",
+    objective: "Atuar como Tech Lead (ou função equivalente de liderança técnica), guiando times de engenharia na adoção de IA no ciclo de desenvolvimento, com qualidade, previsibilidade e foco no produto para o usuário final. Trabalho remoto.",
     freelaText: "Alguns de meus trabalhos que prestei na modalidade freelance para parceiros. Visite meu <a href='/showcase'>Showcase</a> para ver outros projetos",
     freelances:[
         {
@@ -305,19 +313,29 @@ enDic={
         t7:"Objective",
         t8:"Freelances"
     },
-    headline:"<b>Bachelor in Computer Engineering</b>"+
-            "Since 2007, developing professional and secure software to many businesses, "+
-            "always looking after quality and transparency. Check me out at <a href='https://octanic.dev' target='_blank' class='dc'>octanic.dev</a>",
+    headline:"<b>Tech Lead | Computer Engineer</b>"+
+            "Building software for many lines of business since 2007. Today I lead .NET teams and "+
+            "apply AI to software engineering, focusing on Spec-Driven Development (SDD). Check me out at <a href='https://octanic.dev' target='_blank' class='dc'>octanic.dev</a>",
     experience:[
         {
             company: "Agrotools",
             biz: "Agribusiness",
             photoUrl: "img/companies/agt.webp",
-            totalTime: "Currently",
+            totalTime: "since Mar/2022",
             jobs: [
                 {
-                    start: "Mar/2022",
+                    start: "Aug/2025",
                     end: "currently",
+                    position: "Tech Lead",
+                    description: "Tech Lead of a 5-developer squad and technical focal point for the socio-environmental compliance and eligibility domain, one of the company's flagship product lines, working across multiple teams.<br>"+
+                                "- Piloted and rolled out an AI-driven <h>Spec-Driven Development (SDD)</h> process based on the <h>BMAD Method</h>, now adopted by 5 teams and becoming the company-wide standard;<br>"+
+                                "- Significantly reduced engineering cycle time and lead time through AI-assisted development practices, with deliveries consistently matching planned scope;<br>"+
+                                "- Strict documentation control and clearly defined roles across initiatives, using AI agents (<h>Claude</h>, <h>GitHub Copilot</h>, <h>Cursor</h>);<br>"+
+                                "- Technical leadership, technical direction and code reviews for <h>.NET</h> / <h>C#</h>, <h>ASP.NET Core</h>, <h>Microsoft Azure</h>, <h>PostgreSQL</h> / <h>PostGIS</h> services."
+                },
+                {
+                    start: "Mar/2022",
+                    end: "Jul/2025",
                     position: "Fullstack Senior Software Developer",
                     description: "Responsible for development in all parts of an application's lifecycle, related to ESG.<br>"+
                                 "- Working in <h>.NET Framework</h>, <h>.NET Core</h>, <h>Javascript</h> development;<br> "+
@@ -415,7 +433,7 @@ enDic={
             ]
         },
         {
-            company:"STB Student Traveu Bureau",
+            company:"STB Student Travel Bureau",
             photoUrl:"img/companies/stb.webp",
             biz:"Tourism/Exchange",
             totalTime:"3 years",
@@ -436,7 +454,7 @@ enDic={
                     "- Implementation and certification of the internal flight system, with e-Commerce integration module <h>API</h>;<br>"+
                     "- Development and implementation of workflows for the operational area<br>"+
                     "- ERP Maintenance;<br>"+
-                    "- Database stored procedure tunning for <h>SQL Server</h>;<br>"+
+                    "- Database stored procedure tuning for <h>SQL Server</h>;<br>"+
                     "- Technical and user documentation creation;<br>"+
                     "- Troubleshoot and policy advise with helpdesk and programmers;<br>"+
                     "- Setting standards and code practices with the developers;<br>"+
@@ -482,7 +500,7 @@ enDic={
         },
         {
             company:"Siemens",
-            biz:"Engenharia",
+            biz:"Engineering",
             photoUrl:"img/companies/sie.webp",
             totalTime:"7 months",
             jobs:[
@@ -562,8 +580,6 @@ enDic={
         }
     ],
     goodToKnow:[
-        "Not married, nonsmoking",
-        "Available for trips",
         "Been on fire brigade, and work safety training",
         "Private IT lessons for senior citizens, teaching how they can enjoy their hobbies and do their activities using a computer",
         "Enjoys teamworking",
@@ -572,7 +588,7 @@ enDic={
     ],
     plus:"See more +",
     less: "See less -",
-    objective: "To work with system development team, aiming to contribute with the technology advance in the company, with the final objective to generate the best product for the end user.",
+    objective: "To work as a Tech Lead (or an equivalent technical leadership role), guiding engineering teams in adopting AI across the development lifecycle, with quality, predictability and a focus on the product for the end user. Remote work.",
     freelaText: "Some of my work that I did as a freelancer to partners. Please visit my <a href='/showcase'>Showcase</a> for more information.",
     freelances:[
         {

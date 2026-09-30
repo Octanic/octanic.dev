@@ -6,12 +6,19 @@
     flex-direction: column;    
     align-items: center;
     justify-content: center;
-    padding-top:4em;
+    padding: 4em 16px 0;
+    box-sizing: border-box;
+}
+.hero,
+section{
+    width: 100%;
+    max-width: 840px;
+    box-sizing: border-box;
 }
 section{
-    width: 840px;
     display: flex;
     flex-direction: column;
+    overflow-wrap: anywhere;
 }
 .hero h1,
 .hero h2 {
@@ -43,6 +50,14 @@ section{
     flex-direction: row;
     display: flex;
 }
+.item > .m1 {
+    flex-shrink: 0;
+}
+.item > .ctSide,
+.item > .c-9 {
+    flex: 1;
+    min-width: 0;
+}
 
 .m1{
     margin:1em;
@@ -62,7 +77,8 @@ h3{
 
 section.languages {
     display: grid;
-    grid: 70px / 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(70px, auto);
     align-content: center;
 }
 .languages .item {
@@ -99,42 +115,56 @@ section.languages {
     display: flex!important;
 }
 
-@media (max-width: 992px){
+/* shared.css aplica h1 5.5rem abaixo de 1200px; aqui limitamos pela largura da tela */
+@media (max-width: 1200px){
     h1{
-        font-size: 2.8em;
+        font-size: clamp(1.6rem, 7vw, 2.8rem);
     }
+}
+
+@media (max-width: 992px){
     .hero h1, .hero h2 {
         display: block;
-        float: left;
-        line-height: 0.4em;
-        margin-left: 25px;
+        font-size: clamp(2rem, 10vw, 3em);
+        line-height: 1.1;
+        margin: 0;
     }
 
     .hero h2 {
-        margin-bottom: 60px;
+        margin-bottom: 0.5em;
     }
 
     section{
         font-size: 0.8em;
     }
-    section.languages {
-        font-size: larger;
+}
+
+@media (max-width: 600px){
+    section{
+        font-size: 0.65em;
+    }
+    .m1{
+        margin: 0.3em 0.8em 0 0;
+    }
+    .m1 img{
+        width: 56px;
+        height: 56px;
     }
 }
 
-@media (max-device-width:425px){
+@media (max-width: 425px){
     .resume-wrapper img,.m1{
         display: none;
     }
     section.languages {
-        grid: 120px / 1fr;
-        font-size: larger;
+        grid-template-columns: 1fr;
     }
 }
 
-@media (min-device-width:2560px){
+@media (min-width: 2560px){
+    .hero,
     section {
-        width: 1600px;
+        max-width: 1600px;
     }
     
 }
@@ -155,7 +185,7 @@ section.languages {
         font-size: 28px;
     }
     .resume-wrapper{
-        padding-top: 0;
+        padding: 0;
     }
     a,
     small,
@@ -168,6 +198,7 @@ section.languages {
     section{
         font-size: 9pt;
         width: 100%;
+        max-width: none;
         display: block;
     }
     .certificates .item{
