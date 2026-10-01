@@ -1,84 +1,96 @@
 (function(){
     const ptDic={
-        title:"Aqui você encontra amostras de alguns dos meus trabalhos. Alguns não estão públicos no meu <a target='_blank' href='https://github.com/octanic' title='GitHub'>GitHub</a>.",
-        legend:"Em alguns projetos, não é possível abrir o fonte para público, mas pelo menos é possível apresentar mais ou menos o que foi feito.",
+        title:"Aqui estão alguns dos meus trabalhos. Nem todos estão públicos no meu <a target='_blank' href='https://github.com/octanic'>GitHub</a>.",
+        legend:"Alguns projetos têm código fechado. Nesses casos, mostro o que foi feito sem expor o código.",
         items:[
+            {
+                title:"Portal de Pedidos B2B",
+                image:"b2b.png",
+                description:"Plataforma de pedidos para uma distribuidora e sua rede de lojistas, integrada ao ERP."
+                ,url:"project.html?b2b"
+            },
             {
                 title:"ROYBOT",
                 image:"roybot.png",
-                description:"Automação de Royalties, para gestão, controle e envio de boletos, geração de CNAB e RPS."
+                description:"Automação que calcula royalties por contrato e envia boletos registrados aos franqueados."
                 ,url:"project.html?roybot"
             },
             {
                 title:"Portal Interteck Katal",
                 image:"katal.png",
-                description:"Portal institucional e com painel administrativo de gestão de conteúdo para a empresa de Biotecnologia Interteck Katal."
+                description:"Site institucional com gestão de conteúdo para a empresa de biotecnologia Interteck Katal."
                 ,url:"project.html?katal"
             },
             {
                 title:"Hipsta Adventures",
                 image:"hipsta.png",
-                description:"Jogo criado usando a biblioteca P5.js, durante o workshop Imersão GameDev, da Alura, que recebeu uma menção de honra pela equipe da Alura."
+                description:"Jogo de plataforma em p5.js que recebeu menção honrosa na Imersão GameDev da Alura."
                 ,url:"project.html?hipsta"
             },
             {
                 title:"Sabre SPL Interpreter",
                 image:"spl.svg",
-                description:"Automação de leitura, interpretação e registro automático de bilhetes de passagens aéreas produzidos pelo sistema Sabre."
+                description:"Automação que lê e registra os bilhetes aéreos emitidos no Sabre e alerta sobre possíveis multas."
                 ,url:"project.html?spl"
             },
             {
                 title:"Pass Calculator",
                 image:"passcalc.png",
-                description:"Calculadora para compra de passes em pacotes do jogo Pokémon GO, feito em Blazor."
+                description:"Calculadora em Blazor que mostra qual pacote de passes de raid do Pokémon GO vale mais a pena."
                 ,url:"project.html?passcalc"
             },
             {
                 title:"EPG Manager",
                 image:"epg.png",
-                description:"Gerenciador de grades de programação com base no padrão a ser lido por um EPG (Electronic Programming Guide)"
+                description:"Gerador de grades de programação no formato lido por equipamentos de EPG."
                 ,url:"project.html?epgm"
             }
         ]
     };
     const enDic={
-        title:"Here you can find some of my work. Some of them are not public on my <a target='_blank' href='https://github.com/octanic' title='GitHub'>GitHub</a>.",
-        legend:"Since it is not possible to show the source code to the public, at least I can show a little about what was done.",
+        title:"Here are some of my projects. Not all of them are public on my <a target='_blank' href='https://github.com/octanic'>GitHub</a>.",
+        legend:"Some projects are closed source. For those, I show what was built without exposing the code.",
         items:[
+            {
+                title:"B2B Ordering Portal",
+                image:"b2b.png",
+                description:"Ordering platform for a distributor and its retailer network, integrated with the ERP."
+                ,url:"project.html?b2b"
+            },
             {
                 title:"ROYBOT",
                 image:"roybot.png",
-                description:"Royalty automation, for management, control and sending bills, along with CNAB and RPS file generation."
+                description:"Automation that calculates royalties per contract and sends registered bank slips to franchisees."
                 ,url:"project.html?roybot"
             },
             {
-                title:"Portal Interteck Katal",
+                title:"Interteck Katal Portal",
                 image:"katal.png",
-                description:"Company Portal with content management area for the Biotechnology company Interteck Katal."
+                description:"Company website with content management for the biotechnology company Interteck Katal."
                 ,url:"project.html?katal"
             },
             {
                 title:"Hipsta Adventures",
                 image:"hipsta.png",
-                description:"Platform game made with P5.js library, on Imersão GameDev workshop, hosted by Alura. This game received honorable mentions from the team."
+                description:"Platform game in p5.js that received an honorable mention at Alura's Imersão GameDev."
                 ,url:"project.html?hipsta"
             },
             {
                 title:"Sabre SPL Interpreter",
                 image:"spl.svg",
-                description:"Automatic reading, interpreting, registration automation for flight tickets made on Sabre Global Distribution System."
+                description:"Automation that reads and records airline tickets issued in Sabre and warns about possible fines."
                 ,url:"project.html?spl"
             },
             {
                 title:"Pass Calculator",
                 image:"passcalc.png",
-                description:"Calculator to check the best value for raid pass bundles on Pokémon GO, made with Blazor."
+                description:"Blazor calculator that shows which Pokémon GO raid pass bundle is the best deal."
                 ,url:"project.html?passcalc"
             },
             {
                 title:"EPG Manager",
                 image:"epg.png",
-                description:"Manager for program schedules using the standards for reading on an EPG (Electronic Programming Guide)"
+                description:"Program schedule generator in the format read by EPG equipment."
                 ,url:"project.html?epgm"
             }
         ]

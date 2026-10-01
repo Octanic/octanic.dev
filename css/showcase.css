@@ -84,6 +84,47 @@
     max-width: 100%;
 }
 
+.summary{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: .5em 1em;
+    margin: 1.5em 0 .5em;
+    padding: 1em 1.25em;
+    border-left: 4px solid #e8bf31;
+    background: rgba(255,255,255,.05);
+    max-width: 60em;
+}
+.summary dt{
+    font-weight: bolder;
+    color: #e8bf31;
+}
+.summary dd{
+    margin: 0;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr));
+    gap: 1.5em;
+    margin-top: 2em;
+}
+.gallery figure{
+    margin: 0;
+}
+.gallery img{
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(255,255,255,.2);
+}
+.gallery a{
+    display: block;
+}
+.gallery figcaption{
+    font-size: .85em;
+    margin-top: .5em;
+    opacity: .8;
+}
+
 .pill-case{
     display: flex;
     flex-wrap: wrap;
@@ -108,6 +149,28 @@
     }
     .content{
         margin-left: 1rem;
+    }
+}
+/* shared.css aplica h1 5.5rem abaixo de 1200px; aqui limitamos pela largura da tela */
+@media (max-width:1200px){
+    .content h1{
+        font-size: clamp(1.6rem, 7vw, 2.8rem);
+    }
+    .content h2{
+        font-size: clamp(1.1rem, 4.5vw, 1.5rem);
+    }
+}
+@media (max-width:600px){
+    .content{
+        margin: 3.5rem 16px 6em;
+        font-size: .75em;
+        overflow-wrap: anywhere;
+    }
+    .summary{
+        grid-template-columns: 1fr;
+    }
+    .summary dd{
+        margin-bottom: .5em;
     }
 }
 @media (min-width:2000px) {
